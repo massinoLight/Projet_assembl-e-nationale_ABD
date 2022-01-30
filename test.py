@@ -1,6 +1,6 @@
 import json
 import pandas as pd
-with open('./data/liste_depute_histoirique.json', 'r') as f:
+with open('./data/questions_au_gouvernement/QANR5L15QG11.json', 'r') as f:
     data = json.load(f)
 df = pd.DataFrame(data)
 

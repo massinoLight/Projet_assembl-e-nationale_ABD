@@ -12,13 +12,16 @@ ceci a l'aide de PySpark.
 
 
 # Jeux de données:
-
+Données disponibles sur open data
+[Source]
 ##Jeux1:
 Ce jeu rassemble, pour les députés dont le mandat est actif au moment de la consultation,
 
 - les données relatives à leur état civil  (noms, prénoms, dates et lieux de naissance, professions) ainsi que les numéros de téléphone, adresses postales et électroniques;
 
-- les organes parlementaires  dont  ces députés sont membres  (Conférence des Présidents,  Bureau,  commissions, missions, délégations, office, comité, commissions mixtes paritaires, groupes d’amitié et d’étude et groupes politiques) ainsi que les nominations à des assemblées parlementaires internationales et à des organismes extra-parlementaires où l’Assemblée nationale est représentée ;
+- les organes parlementaires  dont  ces députés sont membres  
+- (Conférence des Présidents,  Bureau,  commissions, missions, délégations, office, comité, commissions mixtes paritaires, groupes d’amitié et d’étude et groupes politiques) 
+- ainsi que les nominations à des assemblées parlementaires internationales et à des organismes extra-parlementaires où l’Assemblée nationale est représentée ;
 
 - le rattachement des députés à un parti politique
 
@@ -36,9 +39,19 @@ internationales et à des organismes extra-parlementaires où
 l’Assemblée nationale est représentée 
 ainsi que leur  rattachement à un parti politique. 
 
-source:[Historique des députés]
+[Historique des députés]
 
-[Source]
+##Jeux 3:
+
+Ce jeu rassemble l’ensemble des questions posées au 
+Gouvernement ainsi que les réponses de ce dernier lors des séances publiques 
+dédiées les mardis et mercredis depuis le début de la quinzième législature 
+(juin 2017). 
+Ces données sont disponibles en format XML et JSON.
+
+[Questions posées au gouvernement ]
+
+
 
 
 
@@ -98,5 +111,5 @@ MIT
    
   [Députés en exercice]:<https://data.assemblee-nationale.fr/static/openData/repository/15/amo/deputes_actifs_csv_opendata/liste_deputes_libre_office.csv>
   [Historique des députés]:<https://data.assemblee-nationale.fr/static/openData/repository/15/amo/tous_acteurs_mandats_organes_xi_legislature/AMO30_tous_acteurs_tous_mandats_tous_organes_historique.json.zip>
-   
+   [Questions posées au gouvernement ]:<https://data.assemblee-nationale.fr/static/openData/repository/15/questions/questions_gouvernement/Questions_gouvernement_XV.json.zip>
   [Source]:<https://data.assemblee-nationale.fr/>
