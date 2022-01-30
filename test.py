@@ -1,11 +1,11 @@
-import math
-import os
-import numpy as np
+import json
 import pandas as pd
+with open('./data/PA235.json', 'r') as f:
+    data = json.load(f)
+df = pd.DataFrame(data)
 
-url = 'https://data.assemblee-nationale.fr/static/openData/repository/CONSULTATIONS_CITOYENNES/HAINE_SUR_INTERNET/Haine-sur-Internet.csv'
 
-df=pd.read_csv(url,encoding = "cp1252")
+print(df)
 
-print(df.dtypes)
+
 
