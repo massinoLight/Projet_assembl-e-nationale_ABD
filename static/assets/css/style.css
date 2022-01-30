@@ -1,0 +1,19 @@
+body, html{
+  background: #181E24;
+  padding-top: 10px;
+}
+
+.wrapper{
+  width:60%;
+  display:block;
+  overflow:hidden;
+  margin:0 auto;
+  padding: 60px 50px;
+  background:#fff;
+  border-radius:4px;
+}
+
+canvas{
+  background:#fff;
+  height:400px;
+}

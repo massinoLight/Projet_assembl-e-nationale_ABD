@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <link rel="stylesheet" href="../static/vendors/bootstrap-4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/assets/css/style.css">
+    <link rel="stylesheet" href="../static/vendors/font-awesome/css/font-awesome.min.css">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+
+<div class="principal wrapper">
+  <div class="card text-center">
+ <div class="card-header">
+      <h5>
+{{ labels }}
+      </h5>
+
+    </div>
+
+  <div class="card-body">
+
+
+      <canvas id="myChart4" width="300" height="300"> </canvas>
+    </div>
+
+<div class="card-footer text-muted">
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <button type="button" class="btn btn-outline-info" disabled="">Jalon</button>
+
+        <label class="btn btn-info" id="zoom_1">
+          <input type="radio" name="options"  id="option1" autocomplete="off"> CF/VPC
+        </label>
+        <label class="btn btn-info" id="zoom_2">
+          <input type="radio" name="options" id="option2" autocomplete="off"> VPC/CONTRACT
+        </label>
+
+        </label>
+        <label class="btn btn-info active" id="zoom_max">
+          <input type="radio" name="options" id="maximo" autocomplete="off" > ALL
+        </label>
+
+
+
+
+      </div>
+
+      <a id="download"
+        download="{{ labels }}_ki.jpg"
+        href=""
+        class="btn btn-primary float-right bg-flat-color-1"
+        title="Descargar Gráfico">
+        <!-- Download Icon -->
+        <i class="fa fa-download"></i>
+      </a>
+    </div>
+
+
+
+
+ </div>
+     <h2>Table Ki</h2>
+<div class="table">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Niveau</th>
+            <th>K 1</th>
+            <th>K 2</th>
+            <th>K 3</th>
+            <th>K 4</th>
+            <th>Total</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Nombre </td>
+            <td>4</td>
+            <td>2</td>
+            <td>17</td>
+            <td>22</td>
+            <td>45</td>
+        </tr>
+
+
+        <tbody>
+    </table>
+</div>
+
+
+</div>
+<script>
+    //Download Chart Image
+document.getElementById("download").addEventListener('click', function(){
+  var url_base64jp = document.getElementById("myChart4").toDataURL("data/jpg");
+  var a =  document.getElementById("download");
+  a.href = url_base64jp;
+});
+
+</script>
+
+
+  <script>
+  var ctx = document.getElementById("myChart4").getContext('2d');
+var myChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels:
+          [
+          {% for item in date %}
+            "{{ item }}",
+          {% endfor %}
+          ],
+
+    datasets: [
+
+    { data: [{% for item in total %}
+            "{{ item }}",
+          {% endfor %}],
+        type: 'line',
+        label: 'Total ouvertes',
+        fill: false,
+        backgroundColor: "#b706f9",
+        borderColor: "#b706f9",
+        borderCapStyle: 'butt',
+        borderDash: [5, 5],
+        borderDashOffset: 0.0,
+        borderJoinStyle: 'miter',
+        lineTension: .3,
+        pointBackgroundColor: "#350347",
+        pointBorderColor: "#b706f9",
+        pointBorderWidth: 2,
+        pointHoverRadius: 5,
+        pointHoverBackgroundColor: "#b706f9",
+        pointHoverBorderColor: "#b706f9",
+        pointHoverBorderWidth: 1,
+        pointRadius: 4,
+        pointHitRadius: 10
+        },
+
+
+    {
+      label: 'Draft',
+      backgroundColor: "#141514",
+      data: [{% for item in Draft %}
+            "{{ item }}",
+          {% endfor %}],
+    }, {
+      label: 'To be Checked',
+      backgroundColor: "#9cff33",
+      data: [{% for item in To_be_Checked %}
+            "{{ item }}",
+          {% endfor %}],
+    }, {
+      label: 'To be Specified',
+      backgroundColor: "#ffaf33",
+      data: [{% for item in To_be_Specified %}
+            "{{ item }}",
+          {% endfor %}],
+    }, {
+      label: 'To be Decided',
+      backgroundColor: "#e6ff33",
+      data: [{% for item in To_be_Decided %}
+            "{{ item }}",
+          {% endfor %}],
+    },
+    {
+      label: 'PO Reviewing',
+      backgroundColor: "#33fff3",
+      data: [{% for item in PO_Reviewing %}
+            "{{ item }}",
+          {% endfor %}],
+    },
+    {
+      label: 'To be Documented',
+      backgroundColor: "#ff5e33",
+      data: [{% for item in To_be_Documented %}
+            "{{ item }}",
+          {% endfor %}],
+    },
+    {
+      label: 'Closed',
+      backgroundColor: "#33ff39",
+      data: [{% for item in Closed %}
+            "{{ item }}",
+          {% endfor %}],
+    },
+
+
+
+    ],
+  },
+options: {
+    tooltips: {
+      displayColors: true,
+      callbacks:{
+        mode: 'x',
+      },
+    },
+    scales: {
+      xAxes: [{
+        stacked: true,
+        gridLines: {
+          display: false,
+        }
+      }],
+      yAxes: [{
+        stacked: true,
+        ticks: {
+          beginAtZero: true,
+        },
+        type: 'linear',
+      }]
+    },
+    responsive: true,
+    maintainAspectRatio: false,
+    legend: { position: 'bottom' },
+  }
+});
+
+
+</script>
+
+
+
+
+
+  </body>
+</html>
