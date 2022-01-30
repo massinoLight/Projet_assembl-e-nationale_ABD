@@ -12,6 +12,8 @@ ceci a l'aide de PySpark.
 
 
 # Jeux de données:
+
+##Jeux1:
 Ce jeu rassemble, pour les députés dont le mandat est actif au moment de la consultation,
 
 - les données relatives à leur état civil  (noms, prénoms, dates et lieux de naissance, professions) ainsi que les numéros de téléphone, adresses postales et électroniques;
@@ -22,8 +24,21 @@ Ce jeu rassemble, pour les députés dont le mandat est actif au moment de la co
 
 - les collaborateurs par député.
 
+source:[Députés en exercice]
 
-source:https://data.assemblee-nationale.fr/
+##Jeux 2: 
+
+Ce jeu comprend les données relatives à l’état civil 
+des députés et anciens députés élus à partir du début de 
+la XIème législature en juin 1997, à leur appartenance aux 
+organes parlementaires, aux assemblées parlementaires 
+internationales et à des organismes extra-parlementaires où 
+l’Assemblée nationale est représentée 
+ainsi que leur  rattachement à un parti politique. 
+
+source:[Historique des députés]
+
+[Source]
 
 
 
@@ -32,16 +47,8 @@ source:https://data.assemblee-nationale.fr/
 
 pour l'utilisation de notre projet requiert une instalation préalable de certain outils (la majorité open source)
 
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
+- [PySpark ] - Librérie python pur le traitement distribué!
+-
 
 And of course Dillinger itself is open source with a [public repository][dill]
  on GitHub.
@@ -86,23 +93,10 @@ MIT
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+   
+   [PySpark ]: <https://spark.apache.org/docs/latest/api/python/#>
+   
+  [Députés en exercice]:<https://data.assemblee-nationale.fr/static/openData/repository/15/amo/deputes_actifs_csv_opendata/liste_deputes_libre_office.csv>
+  [Historique des députés]:<https://data.assemblee-nationale.fr/static/openData/repository/15/amo/tous_acteurs_mandats_organes_xi_legislature/AMO30_tous_acteurs_tous_mandats_tous_organes_historique.json.zip>
+   
+  [Source]:<https://data.assemblee-nationale.fr/>
