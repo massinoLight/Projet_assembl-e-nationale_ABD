@@ -1,7 +1,7 @@
 # Description du Projet :
 Ce projet a pour objectif de traiter les données de l’assemblée nationale 
 proposéés par le gouvernement afin d’en tirer des conclusions intéressantes.
-ceci a l'aide de PySpark.
+et d'y appliquer des methodes de ML ceci a l'aide de PySpark.
 
 ![alt text](https://databricks.com/wp-content/uploads/2018/12/PySpark-1024x164.png)
 
