@@ -1,11 +1,23 @@
-import json
+
 import pandas as pd
-with open('./data/questions_au_gouvernement/QANR5L15QG11.json', 'r') as f:
-    data = json.load(f)
-df = pd.DataFrame(data)
+from pyspark.sql import SparkSession
+
+url = 'https://data.assemblee-nationale.fr/static/openData/repository/15/amo/deputes_actifs_csv_opendata/liste_deputes_libre_office.csv'
 
 
-print(df)
+df=pd.read_csv(url)
+
+
+
+
+spark= SparkSession.builder \
+    .master("local") \
+    .appName("Data Exploration") \
+    .getOrCreate()
+
+SparkDF=spark.createDataFrame(df)
+SparkDF.printSchema()
+SparkDF.show()
 
 
 
