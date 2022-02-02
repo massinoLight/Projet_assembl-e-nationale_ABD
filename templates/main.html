@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Projet Ki One Page</title>
+  	<title>Projet Assemblée nationale</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,13 +10,14 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="../static/css/style.css">
       <link rel="stylesheet" href="../static/css/table.css">
+      <link rel="stylesheet" href="../static/css/bar.css">
   </head>
   <body>
 
 		<div class="wrapper d-flex align-items-stretch">
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
-		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(../static/images/renault.jpg);"></a>
+		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(../static/images/logoAssemblee.png);"></a>
 	        <ul class="list-unstyled components mb-5">
 
 
@@ -25,18 +26,13 @@
               <ul class="collapse list-unstyled" id="pageSubmenu">
 
                    <li>
-                    <a href="{{ url_for('forever') }}">4ever</a>
+                    <a href="">4ever</a>
                 </li>
                   <li>
-                    <a href="{{ url_for('forever') }}">ECHO</a>
+                    <a href="">ECHO</a>
                 </li>
 
-                  <li>
-                    <a href="{{ url_for('forever') }}">HCB</a>
-                </li>
-                <li>
-                    <a href="{{ url_for('forever') }}">HDD</a>
-                </li>
+
 
 
               </ul>
@@ -63,33 +59,18 @@
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
+        <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <div class="search-container">
 
-            <button type="button" id="sidebarCollapse" class="btn btn-primary">
-              <i class="fa fa-bars"></i>
-              <span class="sr-only">Toggle Menu</span>
-            </button>
-            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+    <form action="{{ url_for('index') }}" method="post">
+      <input type="text" placeholder="Rechercher un député.." name="search" value="{{request.form.motcle }}">
+      <button type="submit">Recherche</button>
+    </form>
+  </div>
+</div>
 
 
 
@@ -105,7 +86,7 @@
 			<div class="table-row">
 				<div class="table-data">
 
-                     <a href="{{ url_for('forever') }}">
+                     <a href="">
                    <img class="fit-picture" src="../static/images/AHS.png" alt="4rver" style="border:0">
                    </a>
 
@@ -114,7 +95,7 @@
 
                 <div class="table-data">
 
-                    <a href="{{ url_for('forever') }}">
+                    <a href="">
                    <img class="fit-picture"
                         src="../static/images/HeavyVanbis.png"
                         alt="4rver" >

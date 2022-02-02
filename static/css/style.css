@@ -1,5 +1,7 @@
 body {
-  background-color: #91ced4;
+
+  background-color: #130f40;
+  font-family: 'Lato' !important;
 }
 body * {
   box-sizing: border-box;
