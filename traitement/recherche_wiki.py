@@ -25,11 +25,6 @@ def filtrer_image(images,motcle):
     return rdd2.collect()[r1]
 
 
-resultat,image=recherche_wikipedia("Édouard Philippe")
 
-print(resultat.original_title)
-print(resultat.title)
-print(resultat.summary)
-print(image)
 
 

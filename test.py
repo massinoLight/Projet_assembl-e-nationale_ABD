@@ -1,42 +1,13 @@
-import wikipedia
-import random
-from pyspark.sql import SparkSession
-
-spark = SparkSession.builder.appName('SparkByExamples.com').getOrCreate()
-sparkContext=spark.sparkContext
+import requests
+from bs4 import BeautifulSoup
 
 
+def getdata(url):
+    r = requests.get(url)
+    return r.text
 
 
-def recherche_wikipedia(nom_prenom_depute):
-    wikipedia.set_lang("fr")
-    page_wiki = wikipedia.page(nom_prenom_depute)
-    print(page_wiki.title)
-    print(page_wiki.summary)
-    print(page_wiki.images)
-    #return page_wiki,filtrer_image(page_wiki.images)
-
-
-def filtrer_image(images):
-    rdd=sparkContext.parallelize(images)
-    l=[]
-    for i in range (0,len(rdd.collect())):
-       if "jpg"  in rdd.collect()[i]:
-         l.append(rdd.collect()[i])
-
-    rdd2=sparkContext.parallelize(l)
-    l=[]
-    for i in range (0,len(rdd2.collect())):
-      if "Macron"  in rdd.collect()[i]:
-         l.append(rdd.collect()[i])
-
-    rdd3=sparkContext.parallelize(l)
-    r1 = random.randint(0,len(rdd3.collect()))
-    return rdd3.collect()[r1]
-
-
-recherche_wikipedia("Édouard Philippe")
-
-
-
-
+htmldata = getdata("https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA267766")
+soup = BeautifulSoup(htmldata, 'html.parser')
+for item in soup.find_all('img'):
+    print(item['src'])
