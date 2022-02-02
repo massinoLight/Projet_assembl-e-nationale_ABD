@@ -10,7 +10,8 @@ spark= SparkSession.builder \
 
 
 df2 = spark.read.option("header",True) \
-     .csv("/home/massino/Bureau/projetAssembleNationale/Projet_assembl-e-nationale_ABD/data/liste_deputes_collaborateurs.csv")
+     .csv("../data/liste_deputes_libre_office.csv")
 
+print(type(df2))
 df2.printSchema()
 df2.show()
