@@ -21,18 +21,3 @@ def _get_random_image(mot_cle):
         retour=image_urls[r1]
         driver.close()
         return retour
-
-
-print(_get_random_image("Julien Aubert"))
-
-
-
-
-
-
-
-
-
-
-
-
