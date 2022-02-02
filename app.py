@@ -1,5 +1,5 @@
 from distributed.http.utils import redirect
-from flask import Flask, render_template, request, url_for
+from flask import Flask, render_template, request, url_for, redirect
 from datetime import  timedelta, datetime
 
 from traitement.recherche_wiki import recherche_wikipedia
