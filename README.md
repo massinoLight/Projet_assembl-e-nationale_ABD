@@ -60,8 +60,9 @@ Ces données sont disponibles en format XML et JSON.
 
 pour l'utilisation de notre projet requiert une instalation préalable de certain outils (la majorité open source)
 
-- [PySpark ] - Librérie python pur le traitement distribué!
--
+- [PySpark ] - Librérie python pour le traitement distribué!
+- [Wikipedia] - l'API proposée par wikipedi utilisée pour faire du scraping!
+- [Flask] -micro framework pour le déploiment de l'application
 
 And of course Dillinger itself is open source with a [public repository][dill]
  on GitHub.
@@ -108,7 +109,8 @@ MIT
 
    
    [PySpark ]: <https://spark.apache.org/docs/latest/api/python/#>
-   
+   [Wikipedia]: <https://pypi.org/project/Wikipedia-API/>
+   [Flask]: <https://flask.palletsprojects.com/en/2.0.x/>
   [Députés en exercice]:<https://data.assemblee-nationale.fr/static/openData/repository/15/amo/deputes_actifs_csv_opendata/liste_deputes_libre_office.csv>
   [Historique des députés]:<https://data.assemblee-nationale.fr/static/openData/repository/15/amo/tous_acteurs_mandats_organes_xi_legislature/AMO30_tous_acteurs_tous_mandats_tous_organes_historique.json.zip>
    [Questions posées au gouvernement ]:<https://data.assemblee-nationale.fr/static/openData/repository/15/questions/questions_gouvernement/Questions_gouvernement_XV.json.zip>
