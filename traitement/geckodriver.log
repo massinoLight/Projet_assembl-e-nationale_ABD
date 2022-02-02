@@ -1,0 +1,27 @@
+1643828776963	geckodriver	INFO	Listening on 127.0.0.1:50543
+1643828777471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48083" "-no-remote" "-profile" "/tmp/rust_mozprofiles0AjZg"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643828778550	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiles0AjZg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48083/devtools/browser/eb694d50-162a-470d-80d7-65e0d364f923
+1643828780625	Marionette	INFO	Listening on port 42147
+1643828780726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643828783931	Marionette	INFO	Stopped listening on port 42147
+1643829275123	geckodriver	INFO	Listening on 127.0.0.1:51561
+1643829275632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39193" "-no-remote" "-profile" "/tmp/rust_mozprofileJlVgTs"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643829276662	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJlVgTs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39193/devtools/browser/25076bf4-db82-4be8-bf80-6ccb4925cf57
+1643829278936	Marionette	INFO	Listening on port 42497
+1643829278969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643829282420	Marionette	INFO	Stopped listening on port 42497
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
