@@ -11,7 +11,10 @@ sparkContext=spark.sparkContext
 def recherche_wikipedia(nom_prenom_depute):
     wikipedia.set_lang("fr")
     page_wiki = wikipedia.page(nom_prenom_depute)
-    return page_wiki,filtrer_image(page_wiki.images)
+    print(page_wiki.title)
+    print(page_wiki.summary)
+    print(page_wiki.images)
+    #return page_wiki,filtrer_image(page_wiki.images)
 
 
 def filtrer_image(images):
@@ -32,9 +35,8 @@ def filtrer_image(images):
     return rdd3.collect()[r1]
 
 
-resultat,image=recherche_wikipedia("Emmanuel Macron")
+recherche_wikipedia("Édouard Philippe")
 
-print(resultat.summary)
-print(image)
+
 
 
