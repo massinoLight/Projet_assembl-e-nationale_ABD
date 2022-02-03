@@ -1,4 +1,4 @@
-Région,Profession,Groupe politique (complet),depute
+Région,Profession,Groupe politique (complet),label
 Normandie,Expert-comptable,Les Républicains,1
 Occitanie,Journaliste,La République en Marche,1
 Occitanie,Fonctionnaire de catégorie A,La République en Marche,1
@@ -567,43 +567,43 @@ Nouvelle-Aquitaine,Sans profession déclarée,Mouvement Démocrate (MoDem) et D�
 Ile-de-France,Enseignant du 1er dégré-Directeur d'école,La République en Marche,1
 Ile-de-France,Ancien auto-entrepreneur,Agir ensemble,1
 Nouvelle-Aquitaine,Fonctionnaire de catégorie A,La République en Marche,1
-vice-président de conseil régional,etranger,autre,0
-vice-président établissement public ,autre,,0
-président de conseil régional,autre,Agir ensemble,0
-vice-président de conseil départemental,autre,,0
-autre,etranger,autre,0
-membre du Parlement européen,UE,Agir ensemble,0
-président établissement public,etranger,,0
-,UE,,0
-autre,UE,autre,0
-vice-président de conseil départemental,autre,autre,0
-autre,ue,,0
-président de conseil départemental,Etranger,Agir ensemble,0
-président syndicat mixte,autre,,0
-vice-président de conseil régional,ue,autre,0
-,autre,,0
-autre,ue,Les Républicains,0
-vice-président de conseil régional,etranger,,0
-président de conseil départemental,Etranger,,0
-Maire,etranger,autre,0
-président établissement public,UE,Les Républicains,0
-Maire,etranger,Les Républicains,0
-vice-président de conseil départemental,ue,,0
-,ue,Les Républicains,0
-président syndicat mixte,ue,Agir ensemble,0
-vice-président établissement public ,UE,,0
-vice-président de conseil régional,ue,autre,0
-président syndicat mixte,Etranger,,0
-vice-président de conseil régional,UE,,0
-autre,ue,Les Républicains,0
-président syndicat mixte,autre,,0
-président établissement public,UE,Agir ensemble,0
-Maire,autre,,0
-président de conseil départemental,Etranger,autre,0
-vice-président syndicat mixte,UE,autre,0
-président établissement public,ue,,0
-Maire,Etranger,Agir ensemble,0
-,ue,autre,0
-président établissement public,autre,Les Républicains,0
-président syndicat mixte,etranger,,0
+vice-président de conseil régional,Etranger,,0
+président établissement public,Etranger,,0
+autre,Etranger,autre,0
 membre du Parlement européen,UE,,0
+président syndicat mixte,ue,autre,0
+autre,ue,,0
+président de conseil départemental,ue,,0
+,UE,autre,0
+président de conseil régional,UE,,0
+vice-président établissement public ,UE,,0
+président établissement public,ue,autre,0
+autre,UE,autre,0
+président syndicat mixte,autre,,0
+vice-président établissement public ,ue,Les Républicains,0
+autre,UE,Les Républicains,0
+autre,etranger,autre,0
+président syndicat mixte,autre,autre,0
+Maire,Etranger,autre,0
+président établissement public,Etranger,Les Républicains,0
+Maire,etranger,,0
+vice-président de conseil régional,UE,,0
+Maire,UE,,0
+président syndicat mixte,UE,Agir ensemble,0
+président de conseil régional,Etranger,,0
+vice-président de conseil régional,etranger,Agir ensemble,0
+Maire,ue,Agir ensemble,0
+vice-président de conseil départemental,autre,autre,0
+vice-président établissement public ,etranger,Les Républicains,0
+vice-président de conseil régional,ue,,0
+autre,Etranger,,0
+autre,ue,Les Républicains,0
+membre du Parlement européen,Etranger,,0
+président établissement public,UE,,0
+autre,ue,Agir ensemble,0
+vice-président de conseil régional,etranger,Les Républicains,0
+membre du Parlement européen,etranger,autre,0
+vice-président de conseil départemental,ue,,0
+président de conseil départemental,UE,autre,0
+président de conseil régional,ue,Agir ensemble,0
+vice-président de conseil départemental,Etranger,Agir ensemble,0

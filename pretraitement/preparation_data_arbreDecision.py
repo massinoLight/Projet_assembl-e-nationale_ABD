@@ -21,7 +21,8 @@ profession_non_autorise = ['Maire', 'membre du Parlement européen', 'président
                        'président syndicat mixte','vice-président syndicat mixte','','autre']
 region_non_autorise = ['UE','Etranger','etranger','ue','autre']
 GroupePolitique_non_autorise = ['','','Les Républicains','Agir ensemble','autre']
-columns = ['Région','Profession','Groupe politique (complet)','depute']
+
+columns = ['Région','Profession','Groupe politique (complet)','label']
 
 df = spark.read.option("header",True) \
      .csv("../data/liste_deputes_libre_office.csv")
@@ -30,7 +31,7 @@ df = spark.read.option("header",True) \
 print(type(df.schema))
 df.show()
 df2=df.drop("identifiant","Prénom","Nom","Département","Numéro de circonscription","Groupe politique (abrégé)")
-df2=df2.withColumn("depute", lit(1))
+df2=df2.withColumn("label", lit(1))
 
 for i in range(0,40):
     newRow = spark.createDataFrame([(profession_non_autorise[random.randint(0,len(profession_non_autorise)-1)],

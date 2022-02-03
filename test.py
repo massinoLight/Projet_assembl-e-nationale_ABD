@@ -9,30 +9,29 @@ import pandas as pd
 
 df=pd.read_csv("./data/data_for_DT.csv")
 print(df.head())
+features = []
+for i in range(0,len(df.columns)-1):
+    features.append(df.columns[i])
 
-
-"""iris = load_iris()
-df_iris = pd.DataFrame(iris.data, columns=iris.feature_names)
-df_iris['label'] = pd.Series(iris.target)
-
-print(df_iris.head())
 
 sc = SparkContext().getOrCreate()
 sqlContext = SQLContext(sc)
 
-data = sqlContext.createDataFrame(df_iris)
+data = sqlContext.createDataFrame(df)
 print(data.printSchema())
 
 
-features = iris.feature_names
 
+
+"""
 va = VectorAssembler(inputCols = features, outputCol='features')
 
 va_df = va.transform(data)
-va_df = va_df.select(['features', 'label'])
+va_df = va_df.select(['features', 'depute'])
 va_df.show(3)
 
 (train, test) = va_df.randomSplit([0.7, 0.3])
+
 
 dtc = DecisionTreeClassifier(featuresCol="features", labelCol="label")
 dtc = dtc.fit(train)
@@ -53,6 +52,6 @@ print("Confusion Matrix:")
 print(cm)
 
 sc.stop()
-
 """
+
 

@@ -13,9 +13,9 @@ iris = load_iris()
 df_iris = pd.DataFrame(iris.data, columns=iris.feature_names)
 df_iris['label'] = pd.Series(iris.target)
 
-print(df_iris.head())
 
-"""sc = SparkContext().getOrCreate()
+
+sc = SparkContext().getOrCreate()
 sqlContext = SQLContext(sc)
 
 data = sqlContext.createDataFrame(df_iris)
@@ -52,5 +52,5 @@ print(cm)
 
 sc.stop()
 
-"""
+
 
