@@ -1,3 +1,5 @@
+from pyparsing import col
+from pyspark.pandas.spark.functions import lit
 from pyspark.sql import SparkSession
 
 
@@ -9,9 +11,13 @@ spark= SparkSession.builder \
     .getOrCreate()
 
 
-df2 = spark.read.option("header",True) \
+df = spark.read.option("header",True) \
      .csv("../data/liste_deputes_libre_office.csv")
 
-print(type(df2))
+
+df.printSchema()
+df.show()
+df2=df.drop("identifiant","Prénom","Nom","Département","Numéro de circonscription","Groupe politique (abrégé)")
+df2=df2.withColumn("bonus_percent", lit(1))
 df2.printSchema()
 df2.show()
