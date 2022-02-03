@@ -1,57 +1,46 @@
 
-from pyspark.sql.types import StructType,StructField, StringType, IntegerType
+from pyspark.sql import SparkSession
+from pyspark import SparkFiles
+from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.feature import StringIndexer
-from pyspark import SparkContext
-from pyspark.sql import SQLContext
+from pyspark.ml import Pipeline
 from pyspark.ml.classification import DecisionTreeClassifier
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
-from pyspark.ml.feature import VectorAssembler
-from sklearn.metrics import confusion_matrix
-from pyspark.mllib.tree import DecisionTree, DecisionTreeModel
-from pyspark.mllib.util import MLUtils
-
-import pandas as pd
 
 
 
-df=pd.read_csv("../data/dataVector_for_DT.csv")
-sc = SparkContext().getOrCreate()
-sqlContext = SQLContext(sc)
-data = sqlContext.createDataFrame(data=df)
+spark= SparkSession.builder \
+    .master("local") \
+    .appName("Data Exploration") \
+    .getOrCreate()
+
+df = spark.read.options(delimiter=",", header=True, inferSchema=True).csv("./data/data_for_DT.csv")
+
+def show_accuracy(predictions):
+    evaluator = MulticlassClassificationEvaluator(metricName="accuracy")
+    accuracy = evaluator.evaluate(predictions)
+    print("Accuracy = {:.2f} %".format(accuracy*100))
 
 
-data.show()
+df.show(5)
+indexer1 = StringIndexer(inputCol=df.columns[0], outputCol="rg_index", handleInvalid='keep')
+indexer2 = StringIndexer(inputCol=df.columns[1], outputCol="pr_index", handleInvalid='keep')
+indexer3 = StringIndexer(inputCol=df.columns[2], outputCol="gp_index", handleInvalid='keep')
+pipeline = Pipeline(stages=[indexer1, indexer2, indexer3])
+data = pipeline.fit(df).transform(df)
+data = VectorAssembler(inputCols=["rg_index","pr_index","gp_index"], outputCol="features").transform(data).select('label','features')
+
+data.show(5)
 
 
-(train, test) = data.randomSplit([0.7, 0.3])
+
+# Split the data into training and test sets (30% held out for testing)
+(trainingData, testData) = data.randomSplit([0.7, 0.3])
 
 
+dtree = DecisionTreeClassifier(maxDepth=5, impurity='gini', maxBins=280)
+model = dtree.fit(trainingData)
+predictions = model.transform(testData)
 
+show_accuracy(predictions)
 
-dtc = DecisionTreeClassifier(featuresCol="features", labelCol="label",impurity='gini', maxDepth=5, maxBins=32)
-dtc = dtc.fit(train)
-
-"""
-model = DecisionTree.trainClassifier(train, numClasses=2, categoricalFeaturesInfo={},
-                                         impurity='gini', maxDepth=5, maxBins=32)
-
-
-dtc = dtc.fit(train)
-
-pred = dtc.transform(test)
-pred.show(3)
-
-evaluator = MulticlassClassificationEvaluator(predictionCol="prediction")
-acc = evaluator.evaluate(pred)
-
-print("Prediction Accuracy: ", acc)
-
-y_pred = pred.select("prediction").collect()
-y_orig = pred.select("label").collect()
-
-cm = confusion_matrix(y_orig, y_pred)
-print("Confusion Matrix:")
-print(cm)
-
-sc.stop()
-"""
