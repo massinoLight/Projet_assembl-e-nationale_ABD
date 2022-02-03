@@ -1,609 +1,609 @@
-,Région,Profession,Groupe politique (complet),depute
-0,Normandie,Expert-comptable,Les Républicains,1
-1,Occitanie,Journaliste,La République en Marche,1
-2,Occitanie,Fonctionnaire de catégorie A,La République en Marche,1
-3,Provence-Alpes-Côte d'Azur,Directrice d’un centre de formation des apprentis ,La République en Marche,1
-4,Corse,Médecin,Les Républicains,1
-5,Bourgogne-Franche-Comté,Neuroradiologue,La République en Marche,1
-6,Bretagne,Professeur du secondaire,Libertés et Territoires,1
-7,Bourgogne-Franche-Comté,Employée (autres entreprises publiques),La République en Marche,1
-8,Bretagne,Infirmier des forces spéciales,La République en Marche,1
-9,Grand Est,Magistrat,Agir ensemble,1
-10,Provence-Alpes-Côte d'Azur,Professeur,La France insoumise,1
-11,Auvergne-Rhône-Alpes,Employée (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-12,Provence-Alpes-Côte d'Azur,Retraité,Les Républicains,1
-13,Ile-de-France,Cadre dirigeant,La République en Marche,1
-14,Auvergne-Rhône-Alpes,Professeur du secondaire et technique,La République en Marche,1
-15,Auvergne-Rhône-Alpes,Industriel-Chef d'entreprise,Les Républicains,1
-16,Bourgogne-Franche-Comté,Fonctionnaire des grands corps de l'État,Socialistes et apparentés,1
-17,Pays de la Loire,Agriculteur-propriétaire retraité,La République en Marche,1
-18,Auvergne-Rhône-Alpes,Mère au foyer,Les Républicains,1
-19,Français établis hors de France,Autre cadre (secteur privé),Agir ensemble,1
-20,Ile-de-France,Chef d'entreprise,Les Républicains,1
-21,Occitanie,Personnel de direction de l'Education nationale,La République en Marche,1
-22,Auvergne-Rhône-Alpes,Fonctionnaire de catégorie A,Les Républicains,1
-23,Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
-24,Normandie,Cadre supérieur (secteur privé),La République en Marche,1
-25,Normandie,Cadre de la fonction publique,Les Républicains,1
-26,Hauts-de-France,Directrice de mission,La République en Marche,1
-27,Ile-de-France,Autre profession libérale,La République en Marche,1
-28,Occitanie,Retraitée de la Fonction publique,La République en Marche,1
-29,Corse,Médecin,Libertés et Territoires,1
-30,Ile-de-France,Autres,Les Républicains,1
-31,Auvergne-Rhône-Alpes,Avocat,La République en Marche,1
-32,Bretagne,Cadre du secteur public,La République en Marche,1
-33,Bourgogne-Franche-Comté,Médecin,La République en Marche,1
-34,Grand Est,Industriel-Chef d'entreprise,La République en Marche,1
-35,Provence-Alpes-Côte d'Azur,Cadre supérieur (secteur privé),La République en Marche,1
-36,Guyane,Cadre supérieur (entreprises privée),La République en Marche,1
-37,Provence-Alpes-Côte d'Azur,Fonctionnaire de catégorie A,La République en Marche,1
-38,Normandie,Cadre commercial,La République en Marche,1
-39,Grand Est,Sage-femme,Les Républicains,1
-40,Occitanie,"Docteur, Ingénieur Recherche et Dévelopement",La République en Marche,1
-41,Nouvelle-Aquitaine,Cadre d'organisation professionnelle agricole,La République en Marche,1
-42,Grand Est,Sans profession,UDI et Indépendants,1
-43,Français établis hors de France,Chef d'entreprise,La République en Marche,1
-44,Hauts-de-France,Agriculteur retraité,Les Républicains,1
-45,Auvergne-Rhône-Alpes,Professeur de lettres-anglais en lycée professionnel,Socialistes et apparentés,1
-46,Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
-47,Occitanie,Fonctionnaire de catégorie C,La République en Marche,1
-48,Ile-de-France,Cadre supérieur (entreprises publiques),La République en Marche,1
-49,Occitanie,Conseiller juridique,La République en Marche,1
-50,Hauts-de-France,Cadre supérieur (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-51,Grand Est,Enseignant,Les Républicains,1
-52,Bretagne,Cadre supérieur du secteur public ,La République en Marche,1
-53,Auvergne-Rhône-Alpes,Cadre supérieur (entreprises publiques),La République en Marche,1
-54,Ile-de-France,Administrateur civil,Non inscrit,1
-55,Auvergne-Rhône-Alpes,Ingénieur,La République en Marche,1
-56,Bourgogne-Franche-Comté,Agriculteur,Les Républicains,1
-57,Grand Est,Cadre supérieur (secteur privé),La République en Marche,1
-58,Bourgogne-Franche-Comté,Chef d'entreprise retraitée,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-59,Auvergne-Rhône-Alpes,Administratrice de sociétés,La République en Marche,1
-60,Provence-Alpes-Côte d'Azur,Autre cadre (secteur privé),La République en Marche,1
-61,Réunion,Inspecteur assurance-vie,Socialistes et apparentés,1
-62,Bourgogne-Franche-Comté,Avocat,La République en Marche,1
-63,Grand Est,Fonctionnaire de catégorie A,Les Républicains,1
-64,Grand Est,Viticulteur négociant,Les Républicains,1
-65,Nouvelle-Aquitaine,Médecin,La République en Marche,1
-66,Occitanie,Professeur du secondaire et technique,La France insoumise,1
-67,Pays de la Loire,Autre profession libérale,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-68,Martinique,Collaborateur parlementaire,Gauche démocrate et républicaine,1
-69,Hauts-de-France,Avocat,Les Républicains,1
-70,Occitanie,Employée (autres entreprises publiques),La France insoumise,1
-71,Pays de la Loire,Professeur du secondaire et technique,La République en Marche,1
-72,Occitanie,Médecin,La République en Marche,1
-73,Bretagne,Photographe et réalisateur,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-74,Ile-de-France,Chef d'entreprise,La République en Marche,1
-75,Auvergne-Rhône-Alpes,Avocate,Les Républicains,1
-76,Wallis-et-Futuna,chef d'entreprise,Libertés et Territoires,1
-77,Ile-de-France,Haut fonctionnaire dans la Police nationale,La République en Marche,1
-78,Bourgogne-Franche-Comté,Professeur d'anglais CFA                   ,La République en Marche,1
-79,Grand Est,Professeur des Universités,La République en Marche,1
-80,Bourgogne-Franche-Comté,Cadre supérieur (secteur privé),La République en Marche,1
-81,Grand Est,Salariée du secteur médical,La République en Marche,1
-82,Auvergne-Rhône-Alpes,Cadre supérieur du secteur privé,La République en Marche,1
-83,Provence-Alpes-Côte d'Azur,Ingénieur,Les Républicains,1
-84,Pays de la Loire,Employé (secteur privé),La République en Marche,1
-85,Provence-Alpes-Côte d'Azur,Expert-Comptable-Commissaire aux Comptes,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-86,Nouvelle-Aquitaine,Chef d'entreprise,La République en Marche,1
-87,Nouvelle-Aquitaine,Dirigeant de société,La République en Marche,1
-88,Occitanie,Profession rattachée à l'enseignement,La France insoumise,1
-89,Pays de la Loire,Directrice établissement de santé,La République en Marche,1
-90,Français établis hors de France,Médecin,La République en Marche,1
-91,Normandie,Permanent politique,Gauche démocrate et républicaine,1
-92,Centre-Val de Loire,Urbaniste,UDI et Indépendants,1
-93,Occitanie,Directeur d'un établissement pour l'enfance handicapée,Socialistes et apparentés,1
-94,Occitanie,Homme de lettres et artiste,Agir ensemble,1
-95,Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
-96,Hauts-de-France,Médecin,La République en Marche,1
-97,Hauts-de-France,Gestionnaire de copropriété,La République en Marche,1
-98,Hauts-de-France,Collaborateur parlementaire,Les Républicains,1
-99,Occitanie,"Cadre supérieur de la fonction publique, directeur territorial",La République en Marche,1
-100,Ile-de-France,Cadre territorial,La République en Marche,1
-101,Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
-102,Bretagne,Professeure agrégée du supérieur,La République en Marche,1
-103,Provence-Alpes-Côte d'Azur,Retraitée,Les Républicains,1
-104,Grand Est,Cadre du secteur privé,Les Républicains,1
-105,Bretagne,Secrétaire administratif des affaires sanitaires et sociales,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-106,Grand Est,Employé (secteur privé),La République en Marche,1
-107,Provence-Alpes-Côte d'Azur,Profession libérale,Libertés et Territoires,1
-108,Pays de la Loire,Professeur dans l'enseignement supérieur,Socialistes et apparentés,1
-109,Provence-Alpes-Côte d'Azur,Avocat,Les Républicains,1
-110,Grand Est,Président de société,La République en Marche,1
-111,Pays de la Loire,Pharmacien,La République en Marche,1
-112,Grand Est,Agriculteur,Les Républicains,1
-113,Normandie,Pharmacien,Agir ensemble,1
-114,Occitanie,Assistante parlementaire,Socialistes et apparentés,1
-115,Normandie,Chargée de projet,La République en Marche,1
-116,Bretagne,Chef entreprise,La République en Marche,1
-117,Hauts-de-France,Attaché parlementaire,Gauche démocrate et républicaine,1
-118,Ile-de-France,Chef d'entreprise,La République en Marche,1
-119,Normandie,Fonctionnaire de catégorie A,La République en Marche,1
-120,Ile-de-France,Fonctionnaire de catégorie A,La République en Marche,1
-121,Bretagne,Cadre du secteur privé,La République en Marche,1
-122,Occitanie,non communiqué,Non inscrit,1
-123,Bretagne,Autre cadre (secteur privé),La République en Marche,1
-124,Grand Est,Autre cadre (secteur privé),Les Républicains,1
-125,Pays de la Loire,Industriel-Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-126,Occitanie,Infirmière diplômée d'Etat,La République en Marche,1
-127,Pays de la Loire,Avocat,Les Républicains,1
-128,Grand Est,Commerçante,Les Républicains,1
-129,Pays de la Loire,Industriel-Chef d'entreprise,La République en Marche,1
-130,Provence-Alpes-Côte d'Azur,Autre profession,Les Républicains,1
-131,Centre-Val de Loire,Autre cadre (secteur privé),La République en Marche,1
-132,Auvergne-Rhône-Alpes,Cadre territorial,Les Républicains,1
-133,Normandie,Cadre d'entreprise / enseignant universitaire,Socialistes et apparentés,1
-134,Normandie,Fonctionnaire de catégorie B,Gauche démocrate et républicaine,1
-135,Auvergne-Rhône-Alpes,Ingénieure aéronautique,La République en Marche,1
-136,Hauts-de-France,Agent général d'assurances,Les Républicains,1
-137,Nouvelle-Aquitaine,Cadre supérieur (secteur privé),La République en Marche,1
-138,Normandie,Profession rattachée à l'enseignement,Gauche démocrate et républicaine,1
-139,Hauts-de-France,Enseignant 1er deg.-directeur école,UDI et Indépendants,1
-140,Ile-de-France,Consultante en affaires publiques,La République en Marche,1
-141,Provence-Alpes-Côte d'Azur,Infirmière libérale,La République en Marche,1
-142,Normandie,Médecin,La République en Marche,1
-143,Ile-de-France,Fonctionnaire de catégorie A,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-144,Bretagne,Sous-préfet,Les Républicains,1
-145,Grand Est,Agriculteur,Socialistes et apparentés,1
-146,Hauts-de-France,Employé (secteur privé),La France insoumise,1
-147,Auvergne-Rhône-Alpes,Juriste,La République en Marche,1
-148,Normandie,Professeur des Universités,La République en Marche,1
-149,Ile-de-France,Professeur des écoles (spécialité français langue étrangère),La République en Marche,1
-150,Centre-Val de Loire,Médecin,La République en Marche,1
-151,Grand Est,Cadre du secteur privé,Les Républicains,1
-152,Provence-Alpes-Côte d'Azur,Chef d'entreprise,La République en Marche,1
-153,Centre-Val de Loire,,Les Républicains,1
-154,Bretagne,Gestionnaire à l'INRAE,Socialistes et apparentés,1
-155,Auvergne-Rhône-Alpes,Conseiller d'État,Les Républicains,1
-156,Ile-de-France,Conseiller en communication,Les Républicains,1
-157,Réunion,Retraitée de l'enseignement,Les Républicains,1
-158,Auvergne-Rhône-Alpes,Employé de banque,La République en Marche,1
-159,Hauts-de-France,Retraité agricole,La République en Marche,1
-160,Normandie,Avocate,La République en Marche,1
-161,Bretagne,Entrepreneur,La République en Marche,1
-162,Nouvelle-Aquitaine,Cadre territorial,Non inscrit,1
-163,Auvergne-Rhône-Alpes,Magistrat,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-164,Provence-Alpes-Côte d'Azur,Conseiller juridique,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-165,Normandie,Avocat,La République en Marche,1
-166,Provence-Alpes-Côte d'Azur,Directeur des relations institutionnelles et médias,Les Républicains,1
-167,Ile-de-France,Consultante communication,La République en Marche,1
-168,Centre-Val de Loire,Cadre supérieur (secteur privé),La République en Marche,1
-169,Nouvelle-Aquitaine,Directrice d'un service emploi et solidarités,La République en Marche,1
-170,Normandie,Autre cadre (secteur privé),La République en Marche,1
-171,Ile-de-France,,Les Républicains,1
-172,Bourgogne-Franche-Comté,Industriel-Chef d'entreprise,La République en Marche,1
-173,Hauts-de-France,Fonctionnaire de catégorie A,La France insoumise,1
-174,Auvergne-Rhône-Alpes,Collaborateur parlementaire,Les Républicains,1
-175,Normandie,Chargée d'études,Socialistes et apparentés,1
-176,Provence-Alpes-Côte d'Azur,Conseiller en gestion de patrimoine indépendant,La République en Marche,1
-177,Ile-de-France,Cadre territorial,Socialistes et apparentés,1
-178,Réunion,Maître de conférences à l'Université,Les Républicains,1
-179,Hauts-de-France,Cadre (secteur privé),Socialistes et apparentés,1
-180,Réunion,Médecin,Les Républicains,1
-181,Nouvelle-Aquitaine,Autre cadre (secteur privé),Non inscrit,1
-182,Nouvelle-Aquitaine,Fonctionnaire de catégorie B,La République en Marche,1
-183,Auvergne-Rhône-Alpes,Fonctionnaire de catégorie A,La République en Marche,1
-184,Auvergne-Rhône-Alpes,Fonctionnaire de catégorie A,Socialistes et apparentés,1
-185,Provence-Alpes-Côte d'Azur,Gérant de société,Les Républicains,1
-186,Auvergne-Rhône-Alpes,Cardiologue,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-187,Ile-de-France,Collaborateur politique,La République en Marche,1
-188,Normandie,"Retraitée artisan, commerçant, chef d'entreprise",La République en Marche,1
-189,Centre-Val de Loire,Fonctionnaire de catégorie A,Les Républicains,1
-190,Provence-Alpes-Côte d'Azur,Autre profession,La République en Marche,1
-191,Occitanie,Expert comptable et commissaire aux comptes,La République en Marche,1
-192,Ile-de-France,Autre profession,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-193,Hauts-de-France,Professeur de faculté,La République en Marche,1
-194,Auvergne-Rhône-Alpes,Cadre à la Caisse des Dépôts et Consignations,Les Républicains,1
-195,Auvergne-Rhône-Alpes,Consultante-Coach en Ressources Humaines,La République en Marche,1
-196,Provence-Alpes-Côte d'Azur,Ingénieur,La République en Marche,1
-197,Centre-Val de Loire,Sans profession déclarée,Les Républicains,1
-198,Réunion,Professeure des écoles,Gauche démocrate et républicaine,1
-199,Occitanie,Cadre supérieur (secteur privé),Les Républicains,1
-200,Réunion,Employé (secteur privé),La France insoumise,1
-201,Hauts-de-France,Médecin,La République en Marche,1
-202,Nouvelle-Aquitaine,Contractuelle de la fonction publique territoriale,La République en Marche,1
-203,Ile-de-France,Professeur de faculté,Non inscrit,1
-204,Auvergne-Rhône-Alpes,Ingénieur,La République en Marche,1
-205,Hauts-de-France,Reporter,La France insoumise,1
-206,Bretagne,Employée (secteur privé),La République en Marche,1
-207,Auvergne-Rhône-Alpes,Retraité de l'éducation nationale,Gauche démocrate et républicaine,1
-208,Ile-de-France,Directeur d'un cabinet de conseil,La République en Marche,1
-209,Ile-de-France,Directeur des Ressources Humaines,La République en Marche,1
-210,Ile-de-France,Ecrivain public,La République en Marche,1
-211,Hauts-de-France,Commerçant,La République en Marche,1
-212,Hauts-de-France,Retraité fonction publique (hors enseignement),UDI et Indépendants,1
-213,Auvergne-Rhône-Alpes,Industriel-Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-214,Normandie,Commerçant,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-215,Normandie,Avocat,La République en Marche,1
-216,Ile-de-France,Industriel-Chef d'entreprise,Libertés et Territoires,1
-217,Centre-Val de Loire,Autre cadre (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-218,Pays de la Loire,Administrateur de sociétés,La République en Marche,1
-219,Hauts-de-France,Retraité de l'enseignement,La République en Marche,1
-220,Ile-de-France,Consultante en communication,La République en Marche,1
-221,Provence-Alpes-Côte d'Azur,,La République en Marche,1
-222,Grand Est,Directrice médicale et directrice de développement en entreprise,Non inscrit,1
-223,Centre-Val de Loire,Juriste consultant,UDI et Indépendants,1
-224,Nouvelle-Aquitaine,Avocat,La République en Marche,1
-225,Bretagne,Représentant de commerce,UDI et Indépendants,1
-226,Martinique,technicienne territoriale,Gauche démocrate et républicaine,1
-227,Nouvelle-Aquitaine,Agriculteur-propriétaire exploitant,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-228,Nouvelle-Aquitaine,Retraitée de la fonction publique (hors enseignement),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-229,Ile-de-France,Employée du secteur privé,Gauche démocrate et républicaine,1
-230,Nouvelle-Aquitaine,Cadre,Socialistes et apparentés,1
-231,Ile-de-France,Cadre supérieur (secteur privé),Socialistes et apparentés,1
-232,Centre-Val de Loire,Biologiste A.I.H.P.,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-233,Pays de la Loire,Assistant parlementaire,La République en Marche,1
-234,Provence-Alpes-Côte d'Azur,Maître de conférences,La République en Marche,1
-235,Bretagne,Diplomate,Agir ensemble,1
-236,Bourgogne-Franche-Comté,Maître des requêtes au Conseil d'État-Avocat,Les Républicains,1
-237,Hauts-de-France,Conseiller juridique,Agir ensemble,1
-238,Hauts-de-France,Conseiller en communication,Non inscrit,1
-239,Normandie,Pharmacien,La République en Marche,1
-240,Hauts-de-France,,La République en Marche,1
-241,Centre-Val de Loire,Cadre associatif,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-242,Grand Est,Ancien magistrat à la Cour des comptes,Libertés et Territoires,1
-243,Mayotte,Médecin,La République en Marche,1
-244,Ile-de-France,Industriel-Chef d'entreprise,La France insoumise,1
-245,Pays de la Loire,Chef d'entreprise,La République en Marche,1
-246,Mayotte,Avocat,Les Républicains,1
-247,Grand Est,Agriculteur,Agir ensemble,1
-248,Nouvelle-Calédonie,Cadre supérieur de la fonction publique,UDI et Indépendants,1
-249,Nouvelle-Aquitaine,Avocat,Libertés et Territoires,1
-250,Nouvelle-Aquitaine,Sans profession déclarée,La République en Marche,1
-251,Centre-Val de Loire,Cadre supérieur (secteur privé),La République en Marche,1
-252,Nouvelle-Aquitaine,Notaire,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-253,Grand Est,Cadre supérieur (secteur privé),La République en Marche,1
-254,Ile-de-France,Ingénieure,La République en Marche,1
-255,Bretagne,Autre profession libérale,La République en Marche,1
-256,Hauts-de-France,Professeur des écoles,UDI et Indépendants,1
-257,Provence-Alpes-Côte d'Azur,Professeur du secondaire et techn.,La République en Marche,1
-258,Bretagne,Profession rattachée à l'enseignement,La République en Marche,1
-259,Occitanie,Directrice d'agence bancaire,La République en Marche,1
-260,Bourgogne-Franche-Comté,Agriculteur-propriétaire exploitant,UDI et Indépendants,1
-261,Hauts-de-France,Notaire,Les Républicains,1
-262,Auvergne-Rhône-Alpes,Cadre du secteur privé,Les Républicains,1
-263,Centre-Val de Loire,Autre cadre (secteur privé),Agir ensemble,1
-264,Auvergne-Rhône-Alpes,Commerçant,La République en Marche,1
-265,Ile-de-France,Professeur de lycée professionnel,La France insoumise,1
-266,Provence-Alpes-Côte d'Azur,Déléguée médicale,Non inscrit,1
-267,Pays de la Loire,Ex-sportive de haut niveau,La République en Marche,1
-268,Nouvelle-Calédonie,Fonctionnaire de catégorie A,UDI et Indépendants,1
-269,Auvergne-Rhône-Alpes,Conseiller d'entreprise,Gauche démocrate et républicaine,1
-270,Polynésie française,Consultant en communication,Agir ensemble,1
-271,Auvergne-Rhône-Alpes,Conseiller juridique,La République en Marche,1
-272,Auvergne-Rhône-Alpes,Sans profession déclarée,La République en Marche,1
-273,Ile-de-France,Juriste,La République en Marche,1
-274,Bretagne,Avocat,La République en Marche,1
-275,Ile-de-France,Fonctionnaire de catégorie A,La République en Marche,1
-276,Centre-Val de Loire,Chef d'entreprise,Les Républicains,1
-277,Ile-de-France,Avocate,La République en Marche,1
-278,Grand Est,Industriel-Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-279,Ile-de-France,Conseillère en insertion professionnelle,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-280,Provence-Alpes-Côte d'Azur,Enseignant vacataire Faculté,La République en Marche,1
-281,Bretagne,Agriculteur-propriétaire exploitant,La République en Marche,1
-282,Normandie,Cadre en certification,La République en Marche,1
-283,Hauts-de-France,Industriel-Chef d'entreprise,La République en Marche,1
-284,Saint-Pierre-et-Miquelon,Infographiste,La République en Marche,1
-285,Hauts-de-France,Directrice d'école,La République en Marche,1
-286,Auvergne-Rhône-Alpes,Cheffe de projet,La République en Marche,1
-287,Nouvelle-Aquitaine,Profession libérale,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-288,Grand Est,Cadre d'entreprise,Les Républicains,1
-289,Ile-de-France,Industriel-Chef d'entreprise,La République en Marche,1
-290,Auvergne-Rhône-Alpes,Exploitant agricole,Les Républicains,1
-291,Ile-de-France,Fonctionnaire de catégorie A,La République en Marche,1
-292,Ile-de-France,Employée (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-293,Pays de la Loire,Comptable,La République en Marche,1
-294,Pays de la Loire,Officier de l'armée de Terre,La République en Marche,1
-295,Auvergne-Rhône-Alpes,Fonctionnaire de catégorie B,La République en Marche,1
-296,Grand Est,Industriel-Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-297,Occitanie,Ingénieur en informatique,Non inscrit,1
-298,Polynésie française,Professeur du secondaire et technique,UDI et Indépendants,1
-299,Provence-Alpes-Côte d'Azur,Médecin,Non inscrit,1
-300,Auvergne-Rhône-Alpes,Cadre hospitalier,La République en Marche,1
-301,Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
-302,Ile-de-France,Cadre supérieur,La République en Marche,1
-303,Centre-Val de Loire,Médecin ,La République en Marche,1
-304,Grand Est,Professeur du secondaire et technique,La République en Marche,1
-305,Nouvelle-Aquitaine,Employée du secteur privé,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-306,Bourgogne-Franche-Comté,Co-gérante d'entreprise en disponibilité,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-307,Bourgogne-Franche-Comté,Professeur du secondaire et technique,La République en Marche,1
-308,Provence-Alpes-Côte d'Azur,Avocate,La République en Marche,1
-309,Bourgogne-Franche-Comté,Comptable,UDI et Indépendants,1
-310,Bourgogne-Franche-Comté,Professeur du secondaire ,Les Républicains,1
-311,Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
-312,Hauts-de-France,Enseignant chercheur ,Agir ensemble,1
-313,Auvergne-Rhône-Alpes,Professeur agrégé de biologie,Les Républicains,1
-314,Pays de la Loire,Cadre administratif,Socialistes et apparentés,1
-315,Ile-de-France,Industriel-Chef d'entreprise,La République en Marche,1
-316,Nouvelle-Aquitaine,Médecin,La République en Marche,1
-317,Pays de la Loire,Directeur de cabinet,UDI et Indépendants,1
-318,Ile-de-France,Fonctionnaire de catégorie A,La France insoumise,1
-319,Ile-de-France,Fonctionnaire de l'État retraité,Les Républicains,1
-320,Pays de la Loire,Ingénieur Arts et métiers,La République en Marche,1
-321,Polynésie française,Autre profession,Gauche démocrate et républicaine,1
-322,Auvergne-Rhône-Alpes,Sans profession déclarée,Les Républicains,1
-323,Nouvelle-Aquitaine,Autre cadre (secteur privé),La République en Marche,1
-324,Centre-Val de Loire,Maître de conférences,La République en Marche,1
-325,Centre-Val de Loire,Industriel-Chef d'entreprise,La République en Marche,1
-326,Nouvelle-Aquitaine,Technicien agricole,Libertés et Territoires,1
-327,Provence-Alpes-Côte d'Azur,Magistrat à la Cour des Comptes,Les Républicains,1
-328,Nouvelle-Aquitaine,Professeur de faculté,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-329,Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
-330,Bourgogne-Franche-Comté,Autre cadre (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-331,Provence-Alpes-Côte d'Azur,Étudiant en ostéopathie,La République en Marche,1
-332,Bourgogne-Franche-Comté,Cadre en entreprise,La République en Marche,1
-333,Ile-de-France,Cadre supérieur (entreprises publiques),La République en Marche,1
-334,Pays de la Loire,,Les Républicains,1
-335,Normandie,Cadreur-monteur en vidéo,Les Républicains,1
-336,Ile-de-France,Agriculteur,Les Républicains,1
-337,Ile-de-France,Avocat,Les Républicains,1
-338,Hauts-de-France,Enseignant,Agir ensemble,1
-339,Nouvelle-Aquitaine,Commercial,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-340,Pays de la Loire,Professeur du secondaire et technique,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-341,Grand Est,Avocat,Les Républicains,1
-342,Nouvelle-Aquitaine,Cadre (entreprises publiques),La République en Marche,1
-343,Nouvelle-Aquitaine,Représentant de commerce,La République en Marche,1
-344,Grand Est,Industriel-Chef d'entreprise,UDI et Indépendants,1
-345,Ile-de-France,Chef de projet digital,Non inscrit,1
-346,Pays de la Loire,Retraitée de la fonction publique hospitalière et chargée de formation,La République en Marche,1
-347,Grand Est,Cadre supérieur (secteur privé),La République en Marche,1
-348,Hauts-de-France,Profession rattachée à l'enseignement,La République en Marche,1
-349,Pays de la Loire,Cadre de la fonction publique consulaire,Socialistes et apparentés,1
-350,Bourgogne-Franche-Comté,Cadre (entreprises publiques),La République en Marche,1
-351,Nouvelle-Aquitaine,Fonctionnaire de catégorie A,Socialistes et apparentés,1
-352,Saint-Barthélemy et Saint-Martin,Directrice générale adjointe d'hôtel,Les Républicains,1
-353,Provence-Alpes-Côte d'Azur,Coordinatrice aménagement numérique,La République en Marche,1
-354,Grand Est,Professeur des Universités,Les Républicains,1
-355,Réunion,Retraité de l'éducation nationale,Les Républicains,1
-356,Ile-de-France,Coordinatrice de projets associatifs,La France insoumise,1
-357,Ile-de-France,Avocat,La République en Marche,1
-358,Normandie,Psychologue,Socialistes et apparentés,1
-359,Centre-Val de Loire,Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-360,Ile-de-France,Permanent politique,Les Républicains,1
-361,Occitanie,Professeur du secondaire et technique,La République en Marche,1
-362,Nouvelle-Aquitaine,Maître de conférences des Universités,La République en Marche,1
-363,Hauts-de-France,Enseignant du 1er degré-Directeur d'école,UDI et Indépendants,1
-364,Occitanie,Autre cadre (secteur privé),La République en Marche,1
-365,Occitanie,Avocat,La République en Marche,1
-366,Bourgogne-Franche-Comté,Autre cadre (secteur privé),Les Républicains,1
-367,Hauts-de-France,Médecin généraliste,Socialistes et apparentés,1
-368,Grand Est,Pharmacien,Les Républicains,1
-369,Nouvelle-Aquitaine,Cadre de l'industrie,Socialistes et apparentés,1
-370,Occitanie,Avocat,UDI et Indépendants,1
-371,Grand Est,Médecin biologiste,Les Républicains,1
-372,Nouvelle-Aquitaine,Cadre (entreprises publiques),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-373,Français établis hors de France,Entrepreneur,La République en Marche,1
-374,Ile-de-France,Employé administratif,Gauche démocrate et républicaine,1
-375,Pays de la Loire,Ingénieur,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-376,Hauts-de-France,Chef de projet dans l'industrie,Les Républicains,1
-377,Bourgogne-Franche-Comté,Courtier en assurances,La République en Marche,1
-378,Français établis hors de France,Cadre supérieur (secteur privé),La République en Marche,1
-379,Provence-Alpes-Côte d'Azur,Juriste,Les Républicains,1
-380,Grand Est,Agrégé de mathématiques,Les Républicains,1
-381,Ile-de-France,Profession rattachée à l'enseignement,La République en Marche,1
-382,Ile-de-France,Cadre d'entreprise,La République en Marche,1
-383,Centre-Val de Loire,chef d'entreprise,Agir ensemble,1
-384,Occitanie,Gérant d'une agence de communication,La République en Marche,1
-385,Occitanie,Fonctionnaire de catégorie A,Libertés et Territoires,1
-386,Bretagne,Agriculteur,Les Républicains,1
-387,Ile-de-France,Bibliothécaire,La France insoumise,1
-388,Nouvelle-Aquitaine,Fonctionnaire de catégorie B,La France insoumise,1
-389,Hauts-de-France,Autre cadre (secteur privé),La République en Marche,1
-390,Ile-de-France,Professeur de faculté,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-391,Occitanie,Infirmière anesthésiste,Agir ensemble,1
-392,Occitanie,Professeur du secondaire et technique,Libertés et Territoires,1
-393,Occitanie,Ingénieure,Socialistes et apparentés,1
-394,Ile-de-France,Avocat,Les Républicains,1
-395,Hauts-de-France,Ingénieure mécanicienne,La République en Marche,1
-396,Ile-de-France,Cadre (entreprises publiques),La République en Marche,1
-397,Hauts-de-France,Conseillère Développement économique,La République en Marche,1
-398,Hauts-de-France,Fonctionnaire de catégorie A,Agir ensemble,1
-399,Nouvelle-Aquitaine,Professeur du secondaire,Libertés et Territoires,1
-400,Pays de la Loire,Cadre supérieur (entreprises publiques),Non inscrit,1
-401,Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
-402,Nouvelle-Aquitaine,Chef d'entreprise,La République en Marche,1
-403,Grand Est,Directeur du développement,Libertés et Territoires,1
-404,Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
-405,Ile-de-France,Consultant,La République en Marche,1
-406,Grand Est,Gestionnaire référent-Régisseur d'avances et de recettes,,1
-407,Normandie,Maître de conférences à Sciences Po,Les Républicains,1
-408,Centre-Val de Loire,Autre cadre (secteur privé),Non inscrit,1
-409,Français établis hors de France,Cadre supérieur (secteur privé),Non inscrit,1
-410,Provence-Alpes-Côte d'Azur,Rédacteur territorial,Les Républicains,1
-411,Grand Est,Autre cadre (secteur privé),La République en Marche,1
-412,Auvergne-Rhône-Alpes,Fonctionnaire territorial,Socialistes et apparentés,1
-413,Français établis hors de France,Agent contractuel au Parlement européen,La République en Marche,1
-414,Occitanie,Industriel-Chef d'entreprise,La République en Marche,1
-415,Auvergne-Rhône-Alpes,Autre profession libérale,La République en Marche,1
-416,Occitanie,Industriel-Chef d'entreprise,La République en Marche,1
-417,Ile-de-France,Cadre supérieur (secteur privé),Les Républicains,1
-418,Nouvelle-Aquitaine,Ingénieur,Socialistes et apparentés,1
-419,Hauts-de-France,Fonctionnaire territorial,Non inscrit,1
-420,Occitanie,Cadre supérieur (secteur privé),La République en Marche,1
-421,Auvergne-Rhône-Alpes,,Les Républicains,1
-422,Pays de la Loire,Cadre supérieur (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-423,Hauts-de-France,Associé dans un cabinet d'audit international,Les Républicains,1
-424,Hauts-de-France,Opticien audioprothésiste,Agir ensemble,1
-425,Occitanie,Journaliste et autre média,La République en Marche,1
-426,Occitanie,Ingénieur,La République en Marche,1
-427,Occitanie,,Libertés et Territoires,1
-428,Ile-de-France,Retraité de la fonction publique,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-429,Bretagne,"Enseignant du 1er degré, directeur d'école",La République en Marche,1
-430,Hauts-de-France,,Non inscrit,1
-431,Hauts-de-France,Profession rattachée à l'enseignement,Libertés et Territoires,1
-432,Grand Est,Salariée du secteur médical,La France insoumise,1
-433,Ile-de-France,Sans profession déclarée,Les Républicains,1
-434,Nouvelle-Aquitaine,Cadre supérieur (secteur privé),La République en Marche,1
-435,Grand Est,Fonctionnaire de catégorie A,Non inscrit,1
-436,Ile-de-France,Cadre bancaire,Les Républicains,1
-437,Auvergne-Rhône-Alpes,Retraité,,1
-438,Normandie,Enseignant 1er degré-directeur d'école (en disponibilité),La République en Marche,1
-439,Normandie,Cadre supérieur (secteur privé),La République en Marche,1
-440,Français établis hors de France,Sans profession déclarée,La République en Marche,1
-441,Provence-Alpes-Côte d'Azur,Autre cadre (secteur privé),Les Républicains,1
-442,Auvergne-Rhône-Alpes,Professeur certifié de SES,Non inscrit,1
-443,Auvergne-Rhône-Alpes,Autre cadre (secteur privé),La République en Marche,1
-444,Occitanie,Retraitée professeur d'université - ancienne présidente d'université,La République en Marche,1
-445,Auvergne-Rhône-Alpes,Ancien avocat,Les Républicains,1
-446,Ile-de-France,Industriel-Chef d'entreprise,La République en Marche,1
-447,Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
-448,Auvergne-Rhône-Alpes,Retraitée Fonction publique territoriale,La République en Marche,1
-449,Ile-de-France,Cadre supérieur (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-450,Nouvelle-Aquitaine,Responsable formation - Cadre en ressources humaines,Libertés et Territoires,1
-451,Occitanie,Fonctionnaire territorial,La République en Marche,1
-452,Grand Est,Ostéopathe,La République en Marche,1
-453,Occitanie,Journaliste et autre média,Non inscrit,1
-454,Hauts-de-France,Permanent politique,Les Républicains,1
-455,Hauts-de-France,Retraitée salariée (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-456,Ile-de-France,Entrepreneur,La République en Marche,1
-457,Bretagne,Cadre supérieur (secteur privé),La République en Marche,1
-458,Auvergne-Rhône-Alpes,,La République en Marche,1
-459,Hauts-de-France,Retraité salarié privé,Gauche démocrate et républicaine,1
-460,Normandie,Industriel-Chef d'entreprise,Libertés et Territoires,1
-461,Nouvelle-Aquitaine,Diplomate de carrière (ministre plénipotentiaire en retraite),Les Républicains,1
-462,Bretagne,Cadre supérieur du secteur privé,La République en Marche,1
-463,Provence-Alpes-Côte d'Azur,Chirurgien-Dentiste,Les Républicains,1
-464,Ile-de-France,Journaliste et autre média,La France insoumise,1
-465,Ile-de-France,Cadre supérieur du secteur privé,La République en Marche,1
-466,Grand Est,Sans profession déclarée,Les Républicains,1
-467,Provence-Alpes-Côte d'Azur,Cadre du secteur privé retraité,Les Républicains,1
-468,Auvergne-Rhône-Alpes,Professeur de médecine,La République en Marche,1
-469,Auvergne-Rhône-Alpes,Agent d'assurances,La République en Marche,1
-470,Français établis hors de France,Médecin,Non inscrit,1
-471,Occitanie,Fonctionnaire de catégorie A,La République en Marche,1
-472,Auvergne-Rhône-Alpes,Industriel-Chef d'entreprise,Agir ensemble,1
-473,Auvergne-Rhône-Alpes,Salariée du secteur médical,La République en Marche,1
-474,Ile-de-France,Administrateur des Finances publiques adjoint,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-475,Ile-de-France,Fonctionnaire de catégorie A,Non inscrit,1
-476,Auvergne-Rhône-Alpes,Industriel-Chef entreprise,La République en Marche,1
-477,Nouvelle-Aquitaine,Fonctionnaire de catégorie B,La République en Marche,1
-478,Hauts-de-France,Juriste,Non inscrit,1
-479,Hauts-de-France,Pharmacienne,UDI et Indépendants,1
-480,Ile-de-France,Responsable commercial (santé dentaire),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-481,Pays de la Loire,Cadre supérieur (secteur privé),La République en Marche,1
-482,Occitanie,Maître de conférences en droit public à l'Université,Agir ensemble,1
-483,Ile-de-France,Employée,Gauche démocrate et républicaine,1
-484,Occitanie,Professeur de faculté,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-485,Occitanie,Conseiller patrimonial,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-486,Ile-de-France,Avocate,La République en Marche,1
-487,Nouvelle-Aquitaine,Agriculteur-propriétaire exploitant,La République en Marche,1
-488,Grand Est,Consultante,La République en Marche,1
-489,Centre-Val de Loire,Conseiller ministériel,La République en Marche,1
-490,Grand Est,Dentiste,La République en Marche,1
-491,Provence-Alpes-Côte d'Azur,Directrice commerciale,La République en Marche,1
-492,Grand Est,Médecin,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-493,Ile-de-France,Manager public,La République en Marche,1
-494,Ile-de-France,Cadre supérieur,Les Républicains,1
-495,Provence-Alpes-Côte d'Azur,Avocat,Agir ensemble,1
-496,Grand Est,Chef d'entreprise dans l'œnologie,Agir ensemble,1
-497,Auvergne-Rhône-Alpes,Consultant sécurité,Les Républicains,1
-498,Français établis hors de France,Ingénieur,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-499,Occitanie,Enseignante 1er degré-directrice d'école,La République en Marche,1
-500,Auvergne-Rhône-Alpes,Professeur de faculté,La République en Marche,1
-501,Auvergne-Rhône-Alpes,Médecin,La République en Marche,1
-502,Guadeloupe,Expert comptable,La République en Marche,1
-503,Auvergne-Rhône-Alpes,Cadre supérieur (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-504,Bourgogne-Franche-Comté,Retraitée de l'enseignement,La République en Marche,1
-505,Auvergne-Rhône-Alpes,Autre profession libérale,La République en Marche,1
-506,Ile-de-France,Infirmière libérale,Les Républicains,1
-507,Pays de la Loire,Directeur régional des ventes,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-508,Pays de la Loire,Avocat,La République en Marche,1
-509,Nouvelle-Aquitaine,Autre cadre (secteur privé),La République en Marche,1
-510,Ile-de-France,Attaché de direction,UDI et Indépendants,1
-511,Provence-Alpes-Côte d'Azur,Employée de la fonction publique retraitée,La République en Marche,1
-512,Hauts-de-France,Avocate,Non inscrit,1
-513,Centre-Val de Loire,Cardiologue,Les Républicains,1
-514,Hauts-de-France,Employé (secteur privé),Les Républicains,1
-515,Occitanie,Artisan,La République en Marche,1
-516,Occitanie,Cadre supérieur (secteur privé),La République en Marche,1
-517,Nouvelle-Aquitaine,Professeur du secondaire ,La République en Marche,1
-518,Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
-519,Nouvelle-Aquitaine,Retraité des professions libérales,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-520,Ile-de-France,Retraité,La République en Marche,1
-521,Grand Est,Fonctionnaire de catégorie A,La République en Marche,1
-522,Corse,Professeur des Universités,Libertés et Territoires,1
-523,Bretagne,Navigateur,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-524,Grand Est,Cadre d'entreprise chargé des relations sociales,Les Républicains,1
-525,Provence-Alpes-Côte d'Azur,Employé (secteur privé),Gauche démocrate et républicaine,1
-526,Grand Est,Industriel-Chef d'entreprise,La République en Marche,1
-527,Français établis hors de France,Ingénieur,UDI et Indépendants,1
-528,Occitanie,Avocat,La République en Marche,1
-529,Auvergne-Rhône-Alpes,Médecin,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-530,Pays de la Loire,Cadre supérieur de la fonction publique territoriale,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-531,Auvergne-Rhône-Alpes,Salariée agricole,Les Républicains,1
-532,Auvergne-Rhône-Alpes,Cadre (entreprises publiques),Socialistes et apparentés,1
-533,Bourgogne-Franche-Comté,Pharmacienne,Les Républicains,1
-534,Guadeloupe,Fonctionnaire de catégorie B,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-535,Guadeloupe,Pharmacienne,Socialistes et apparentés,1
-536,Auvergne-Rhône-Alpes,Consultante,La République en Marche,1
-537,Bourgogne-Franche-Comté,Autre profession,Les Républicains,1
-538,Ile-de-France,Cadre en entreprise,La République en Marche,1
-539,Nouvelle-Aquitaine,Sans profession déclarée,La République en Marche,1
-540,Ile-de-France,Professeur du secondaire et technique,La France insoumise,1
-541,Ile-de-France,Juriste,La République en Marche,1
-542,Nouvelle-Aquitaine,Cadre supérieur du secteur public,La République en Marche,1
-543,Hauts-de-France,Masseur-kinésithérapeute,La République en Marche,1
-544,Occitanie,Autre profession libérale,La République en Marche,1
-545,Nouvelle-Aquitaine,Retraité salarié du privé,La République en Marche,1
-546,Provence-Alpes-Côte d'Azur,Expert foncier et commercial,Les Républicains,1
-547,Nouvelle-Aquitaine,Avocate,Les Républicains,1
-548,Corse,Cadre,Libertés et Territoires,1
-549,Bretagne,Agriculteur-propriétaire exploitant,La République en Marche,1
-550,Nouvelle-Aquitaine,Retraitée de l'enseignement,La République en Marche,1
-551,Grand Est,Attaché Parlementaire,Les Républicains,1
-552,Provence-Alpes-Côte d'Azur,Chargée des relations extérieures - secteur télécom,La République en Marche,1
-553,Auvergne-Rhône-Alpes,Fonctionnaire de catégorie A,La République en Marche,1
-554,Ile-de-France,agent immobilier,Agir ensemble,1
-555,Grand Est,cadre territorial,Agir ensemble,1
-556,Provence-Alpes-Côte d'Azur,Chef d'entreprise,Les Républicains,1
-557,Bourgogne-Franche-Comté,Industriel-Chef d'entreprise,La République en Marche,1
-558,Auvergne-Rhône-Alpes,Autre cadre (secteur privé),Socialistes et apparentés,1
-559,Bourgogne-Franche-Comté,Professeur d'économie,La République en Marche,1
-560,Guadeloupe,Fonction publique territoriale,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-561,Martinique,Retraitée salariée (secteur privé),Socialistes et apparentés,1
-562,Ile-de-France,Directrice générale adjointe d'une agence de communication,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-563,Bourgogne-Franche-Comté,Ancien viticulteur,Les Républicains,1
-564,Nouvelle-Aquitaine,Sans profession déclarée,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
-565,Ile-de-France,Enseignant du 1er dégré-Directeur d'école,La République en Marche,1
-566,Ile-de-France,Ancien auto-entrepreneur,Agir ensemble,1
-567,Nouvelle-Aquitaine,Fonctionnaire de catégorie A,La République en Marche,1
-568,vice-président établissement public ,etranger,Les Républicains,0
-569,vice-président de conseil départemental,Etranger,Les Républicains,0
-570,vice-président de conseil régional,Etranger,Les Républicains,0
-571,autre,etranger,,0
-572,membre du Parlement européen,UE,,0
-573,président de conseil départemental,ue,autre,0
-574,autre,UE,autre,0
-575,président de conseil régional,autre,Les Républicains,0
-576,vice-président syndicat mixte,autre,Les Républicains,0
-577,vice-président de conseil départemental,ue,autre,0
-578,vice-président établissement public ,Etranger,autre,0
-579,,Etranger,Les Républicains,0
-580,président syndicat mixte,etranger,autre,0
-581,autre,etranger,,0
-582,vice-président syndicat mixte,ue,Agir ensemble,0
-583,membre du Parlement européen,etranger,Les Républicains,0
-584,autre,UE,Agir ensemble,0
-585,autre,ue,Agir ensemble,0
-586,vice-président de conseil régional,autre,Agir ensemble,0
-587,président établissement public,UE,autre,0
-588,vice-président de conseil régional,ue,,0
-589,vice-président de conseil régional,autre,,0
-590,président établissement public,UE,,0
-591,vice-président de conseil départemental,autre,Les Républicains,0
-592,autre,Etranger,,0
-593,vice-président établissement public ,ue,,0
-594,vice-président syndicat mixte,ue,Agir ensemble,0
-595,président de conseil départemental,Etranger,,0
-596,vice-président de conseil départemental,ue,Agir ensemble,0
-597,vice-président établissement public ,Etranger,,0
-598,vice-président établissement public ,etranger,,0
-599,vice-président de conseil départemental,etranger,autre,0
-600,autre,Etranger,autre,0
-601,président de conseil régional,etranger,Agir ensemble,0
-602,,UE,Les Républicains,0
-603,président de conseil régional,ue,,0
-604,Maire,ue,autre,0
-605,vice-président de conseil départemental,etranger,Agir ensemble,0
-606,vice-président de conseil régional,Etranger,Agir ensemble,0
-607,président établissement public,Etranger,,0
+Région,Profession,Groupe politique (complet),depute
+Normandie,Expert-comptable,Les Républicains,1
+Occitanie,Journaliste,La République en Marche,1
+Occitanie,Fonctionnaire de catégorie A,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Directrice d’un centre de formation des apprentis ,La République en Marche,1
+Corse,Médecin,Les Républicains,1
+Bourgogne-Franche-Comté,Neuroradiologue,La République en Marche,1
+Bretagne,Professeur du secondaire,Libertés et Territoires,1
+Bourgogne-Franche-Comté,Employée (autres entreprises publiques),La République en Marche,1
+Bretagne,Infirmier des forces spéciales,La République en Marche,1
+Grand Est,Magistrat,Agir ensemble,1
+Provence-Alpes-Côte d'Azur,Professeur,La France insoumise,1
+Auvergne-Rhône-Alpes,Employée (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Provence-Alpes-Côte d'Azur,Retraité,Les Républicains,1
+Ile-de-France,Cadre dirigeant,La République en Marche,1
+Auvergne-Rhône-Alpes,Professeur du secondaire et technique,La République en Marche,1
+Auvergne-Rhône-Alpes,Industriel-Chef d'entreprise,Les Républicains,1
+Bourgogne-Franche-Comté,Fonctionnaire des grands corps de l'État,Socialistes et apparentés,1
+Pays de la Loire,Agriculteur-propriétaire retraité,La République en Marche,1
+Auvergne-Rhône-Alpes,Mère au foyer,Les Républicains,1
+Français établis hors de France,Autre cadre (secteur privé),Agir ensemble,1
+Ile-de-France,Chef d'entreprise,Les Républicains,1
+Occitanie,Personnel de direction de l'Education nationale,La République en Marche,1
+Auvergne-Rhône-Alpes,Fonctionnaire de catégorie A,Les Républicains,1
+Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
+Normandie,Cadre supérieur (secteur privé),La République en Marche,1
+Normandie,Cadre de la fonction publique,Les Républicains,1
+Hauts-de-France,Directrice de mission,La République en Marche,1
+Ile-de-France,Autre profession libérale,La République en Marche,1
+Occitanie,Retraitée de la Fonction publique,La République en Marche,1
+Corse,Médecin,Libertés et Territoires,1
+Ile-de-France,Autres,Les Républicains,1
+Auvergne-Rhône-Alpes,Avocat,La République en Marche,1
+Bretagne,Cadre du secteur public,La République en Marche,1
+Bourgogne-Franche-Comté,Médecin,La République en Marche,1
+Grand Est,Industriel-Chef d'entreprise,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Cadre supérieur (secteur privé),La République en Marche,1
+Guyane,Cadre supérieur (entreprises privée),La République en Marche,1
+Provence-Alpes-Côte d'Azur,Fonctionnaire de catégorie A,La République en Marche,1
+Normandie,Cadre commercial,La République en Marche,1
+Grand Est,Sage-femme,Les Républicains,1
+Occitanie,"Docteur, Ingénieur Recherche et Dévelopement",La République en Marche,1
+Nouvelle-Aquitaine,Cadre d'organisation professionnelle agricole,La République en Marche,1
+Grand Est,Sans profession,UDI et Indépendants,1
+Français établis hors de France,Chef d'entreprise,La République en Marche,1
+Hauts-de-France,Agriculteur retraité,Les Républicains,1
+Auvergne-Rhône-Alpes,Professeur de lettres-anglais en lycée professionnel,Socialistes et apparentés,1
+Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
+Occitanie,Fonctionnaire de catégorie C,La République en Marche,1
+Ile-de-France,Cadre supérieur (entreprises publiques),La République en Marche,1
+Occitanie,Conseiller juridique,La République en Marche,1
+Hauts-de-France,Cadre supérieur (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Grand Est,Enseignant,Les Républicains,1
+Bretagne,Cadre supérieur du secteur public ,La République en Marche,1
+Auvergne-Rhône-Alpes,Cadre supérieur (entreprises publiques),La République en Marche,1
+Ile-de-France,Administrateur civil,Non inscrit,1
+Auvergne-Rhône-Alpes,Ingénieur,La République en Marche,1
+Bourgogne-Franche-Comté,Agriculteur,Les Républicains,1
+Grand Est,Cadre supérieur (secteur privé),La République en Marche,1
+Bourgogne-Franche-Comté,Chef d'entreprise retraitée,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Auvergne-Rhône-Alpes,Administratrice de sociétés,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Autre cadre (secteur privé),La République en Marche,1
+Réunion,Inspecteur assurance-vie,Socialistes et apparentés,1
+Bourgogne-Franche-Comté,Avocat,La République en Marche,1
+Grand Est,Fonctionnaire de catégorie A,Les Républicains,1
+Grand Est,Viticulteur négociant,Les Républicains,1
+Nouvelle-Aquitaine,Médecin,La République en Marche,1
+Occitanie,Professeur du secondaire et technique,La France insoumise,1
+Pays de la Loire,Autre profession libérale,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Martinique,Collaborateur parlementaire,Gauche démocrate et républicaine,1
+Hauts-de-France,Avocat,Les Républicains,1
+Occitanie,Employée (autres entreprises publiques),La France insoumise,1
+Pays de la Loire,Professeur du secondaire et technique,La République en Marche,1
+Occitanie,Médecin,La République en Marche,1
+Bretagne,Photographe et réalisateur,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Chef d'entreprise,La République en Marche,1
+Auvergne-Rhône-Alpes,Avocate,Les Républicains,1
+Wallis-et-Futuna,chef d'entreprise,Libertés et Territoires,1
+Ile-de-France,Haut fonctionnaire dans la Police nationale,La République en Marche,1
+Bourgogne-Franche-Comté,Professeur d'anglais CFA                   ,La République en Marche,1
+Grand Est,Professeur des Universités,La République en Marche,1
+Bourgogne-Franche-Comté,Cadre supérieur (secteur privé),La République en Marche,1
+Grand Est,Salariée du secteur médical,La République en Marche,1
+Auvergne-Rhône-Alpes,Cadre supérieur du secteur privé,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Ingénieur,Les Républicains,1
+Pays de la Loire,Employé (secteur privé),La République en Marche,1
+Provence-Alpes-Côte d'Azur,Expert-Comptable-Commissaire aux Comptes,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Nouvelle-Aquitaine,Chef d'entreprise,La République en Marche,1
+Nouvelle-Aquitaine,Dirigeant de société,La République en Marche,1
+Occitanie,Profession rattachée à l'enseignement,La France insoumise,1
+Pays de la Loire,Directrice établissement de santé,La République en Marche,1
+Français établis hors de France,Médecin,La République en Marche,1
+Normandie,Permanent politique,Gauche démocrate et républicaine,1
+Centre-Val de Loire,Urbaniste,UDI et Indépendants,1
+Occitanie,Directeur d'un établissement pour l'enfance handicapée,Socialistes et apparentés,1
+Occitanie,Homme de lettres et artiste,Agir ensemble,1
+Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
+Hauts-de-France,Médecin,La République en Marche,1
+Hauts-de-France,Gestionnaire de copropriété,La République en Marche,1
+Hauts-de-France,Collaborateur parlementaire,Les Républicains,1
+Occitanie,"Cadre supérieur de la fonction publique, directeur territorial",La République en Marche,1
+Ile-de-France,Cadre territorial,La République en Marche,1
+Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
+Bretagne,Professeure agrégée du supérieur,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Retraitée,Les Républicains,1
+Grand Est,Cadre du secteur privé,Les Républicains,1
+Bretagne,Secrétaire administratif des affaires sanitaires et sociales,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Grand Est,Employé (secteur privé),La République en Marche,1
+Provence-Alpes-Côte d'Azur,Profession libérale,Libertés et Territoires,1
+Pays de la Loire,Professeur dans l'enseignement supérieur,Socialistes et apparentés,1
+Provence-Alpes-Côte d'Azur,Avocat,Les Républicains,1
+Grand Est,Président de société,La République en Marche,1
+Pays de la Loire,Pharmacien,La République en Marche,1
+Grand Est,Agriculteur,Les Républicains,1
+Normandie,Pharmacien,Agir ensemble,1
+Occitanie,Assistante parlementaire,Socialistes et apparentés,1
+Normandie,Chargée de projet,La République en Marche,1
+Bretagne,Chef entreprise,La République en Marche,1
+Hauts-de-France,Attaché parlementaire,Gauche démocrate et républicaine,1
+Ile-de-France,Chef d'entreprise,La République en Marche,1
+Normandie,Fonctionnaire de catégorie A,La République en Marche,1
+Ile-de-France,Fonctionnaire de catégorie A,La République en Marche,1
+Bretagne,Cadre du secteur privé,La République en Marche,1
+Occitanie,non communiqué,Non inscrit,1
+Bretagne,Autre cadre (secteur privé),La République en Marche,1
+Grand Est,Autre cadre (secteur privé),Les Républicains,1
+Pays de la Loire,Industriel-Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Occitanie,Infirmière diplômée d'Etat,La République en Marche,1
+Pays de la Loire,Avocat,Les Républicains,1
+Grand Est,Commerçante,Les Républicains,1
+Pays de la Loire,Industriel-Chef d'entreprise,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Autre profession,Les Républicains,1
+Centre-Val de Loire,Autre cadre (secteur privé),La République en Marche,1
+Auvergne-Rhône-Alpes,Cadre territorial,Les Républicains,1
+Normandie,Cadre d'entreprise / enseignant universitaire,Socialistes et apparentés,1
+Normandie,Fonctionnaire de catégorie B,Gauche démocrate et républicaine,1
+Auvergne-Rhône-Alpes,Ingénieure aéronautique,La République en Marche,1
+Hauts-de-France,Agent général d'assurances,Les Républicains,1
+Nouvelle-Aquitaine,Cadre supérieur (secteur privé),La République en Marche,1
+Normandie,Profession rattachée à l'enseignement,Gauche démocrate et républicaine,1
+Hauts-de-France,Enseignant 1er deg.-directeur école,UDI et Indépendants,1
+Ile-de-France,Consultante en affaires publiques,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Infirmière libérale,La République en Marche,1
+Normandie,Médecin,La République en Marche,1
+Ile-de-France,Fonctionnaire de catégorie A,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Bretagne,Sous-préfet,Les Républicains,1
+Grand Est,Agriculteur,Socialistes et apparentés,1
+Hauts-de-France,Employé (secteur privé),La France insoumise,1
+Auvergne-Rhône-Alpes,Juriste,La République en Marche,1
+Normandie,Professeur des Universités,La République en Marche,1
+Ile-de-France,Professeur des écoles (spécialité français langue étrangère),La République en Marche,1
+Centre-Val de Loire,Médecin,La République en Marche,1
+Grand Est,Cadre du secteur privé,Les Républicains,1
+Provence-Alpes-Côte d'Azur,Chef d'entreprise,La République en Marche,1
+Centre-Val de Loire,,Les Républicains,1
+Bretagne,Gestionnaire à l'INRAE,Socialistes et apparentés,1
+Auvergne-Rhône-Alpes,Conseiller d'État,Les Républicains,1
+Ile-de-France,Conseiller en communication,Les Républicains,1
+Réunion,Retraitée de l'enseignement,Les Républicains,1
+Auvergne-Rhône-Alpes,Employé de banque,La République en Marche,1
+Hauts-de-France,Retraité agricole,La République en Marche,1
+Normandie,Avocate,La République en Marche,1
+Bretagne,Entrepreneur,La République en Marche,1
+Nouvelle-Aquitaine,Cadre territorial,Non inscrit,1
+Auvergne-Rhône-Alpes,Magistrat,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Provence-Alpes-Côte d'Azur,Conseiller juridique,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Normandie,Avocat,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Directeur des relations institutionnelles et médias,Les Républicains,1
+Ile-de-France,Consultante communication,La République en Marche,1
+Centre-Val de Loire,Cadre supérieur (secteur privé),La République en Marche,1
+Nouvelle-Aquitaine,Directrice d'un service emploi et solidarités,La République en Marche,1
+Normandie,Autre cadre (secteur privé),La République en Marche,1
+Ile-de-France,,Les Républicains,1
+Bourgogne-Franche-Comté,Industriel-Chef d'entreprise,La République en Marche,1
+Hauts-de-France,Fonctionnaire de catégorie A,La France insoumise,1
+Auvergne-Rhône-Alpes,Collaborateur parlementaire,Les Républicains,1
+Normandie,Chargée d'études,Socialistes et apparentés,1
+Provence-Alpes-Côte d'Azur,Conseiller en gestion de patrimoine indépendant,La République en Marche,1
+Ile-de-France,Cadre territorial,Socialistes et apparentés,1
+Réunion,Maître de conférences à l'Université,Les Républicains,1
+Hauts-de-France,Cadre (secteur privé),Socialistes et apparentés,1
+Réunion,Médecin,Les Républicains,1
+Nouvelle-Aquitaine,Autre cadre (secteur privé),Non inscrit,1
+Nouvelle-Aquitaine,Fonctionnaire de catégorie B,La République en Marche,1
+Auvergne-Rhône-Alpes,Fonctionnaire de catégorie A,La République en Marche,1
+Auvergne-Rhône-Alpes,Fonctionnaire de catégorie A,Socialistes et apparentés,1
+Provence-Alpes-Côte d'Azur,Gérant de société,Les Républicains,1
+Auvergne-Rhône-Alpes,Cardiologue,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Collaborateur politique,La République en Marche,1
+Normandie,"Retraitée artisan, commerçant, chef d'entreprise",La République en Marche,1
+Centre-Val de Loire,Fonctionnaire de catégorie A,Les Républicains,1
+Provence-Alpes-Côte d'Azur,Autre profession,La République en Marche,1
+Occitanie,Expert comptable et commissaire aux comptes,La République en Marche,1
+Ile-de-France,Autre profession,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Hauts-de-France,Professeur de faculté,La République en Marche,1
+Auvergne-Rhône-Alpes,Cadre à la Caisse des Dépôts et Consignations,Les Républicains,1
+Auvergne-Rhône-Alpes,Consultante-Coach en Ressources Humaines,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Ingénieur,La République en Marche,1
+Centre-Val de Loire,Sans profession déclarée,Les Républicains,1
+Réunion,Professeure des écoles,Gauche démocrate et républicaine,1
+Occitanie,Cadre supérieur (secteur privé),Les Républicains,1
+Réunion,Employé (secteur privé),La France insoumise,1
+Hauts-de-France,Médecin,La République en Marche,1
+Nouvelle-Aquitaine,Contractuelle de la fonction publique territoriale,La République en Marche,1
+Ile-de-France,Professeur de faculté,Non inscrit,1
+Auvergne-Rhône-Alpes,Ingénieur,La République en Marche,1
+Hauts-de-France,Reporter,La France insoumise,1
+Bretagne,Employée (secteur privé),La République en Marche,1
+Auvergne-Rhône-Alpes,Retraité de l'éducation nationale,Gauche démocrate et républicaine,1
+Ile-de-France,Directeur d'un cabinet de conseil,La République en Marche,1
+Ile-de-France,Directeur des Ressources Humaines,La République en Marche,1
+Ile-de-France,Ecrivain public,La République en Marche,1
+Hauts-de-France,Commerçant,La République en Marche,1
+Hauts-de-France,Retraité fonction publique (hors enseignement),UDI et Indépendants,1
+Auvergne-Rhône-Alpes,Industriel-Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Normandie,Commerçant,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Normandie,Avocat,La République en Marche,1
+Ile-de-France,Industriel-Chef d'entreprise,Libertés et Territoires,1
+Centre-Val de Loire,Autre cadre (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Pays de la Loire,Administrateur de sociétés,La République en Marche,1
+Hauts-de-France,Retraité de l'enseignement,La République en Marche,1
+Ile-de-France,Consultante en communication,La République en Marche,1
+Provence-Alpes-Côte d'Azur,,La République en Marche,1
+Grand Est,Directrice médicale et directrice de développement en entreprise,Non inscrit,1
+Centre-Val de Loire,Juriste consultant,UDI et Indépendants,1
+Nouvelle-Aquitaine,Avocat,La République en Marche,1
+Bretagne,Représentant de commerce,UDI et Indépendants,1
+Martinique,technicienne territoriale,Gauche démocrate et républicaine,1
+Nouvelle-Aquitaine,Agriculteur-propriétaire exploitant,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Nouvelle-Aquitaine,Retraitée de la fonction publique (hors enseignement),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Employée du secteur privé,Gauche démocrate et républicaine,1
+Nouvelle-Aquitaine,Cadre,Socialistes et apparentés,1
+Ile-de-France,Cadre supérieur (secteur privé),Socialistes et apparentés,1
+Centre-Val de Loire,Biologiste A.I.H.P.,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Pays de la Loire,Assistant parlementaire,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Maître de conférences,La République en Marche,1
+Bretagne,Diplomate,Agir ensemble,1
+Bourgogne-Franche-Comté,Maître des requêtes au Conseil d'État-Avocat,Les Républicains,1
+Hauts-de-France,Conseiller juridique,Agir ensemble,1
+Hauts-de-France,Conseiller en communication,Non inscrit,1
+Normandie,Pharmacien,La République en Marche,1
+Hauts-de-France,,La République en Marche,1
+Centre-Val de Loire,Cadre associatif,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Grand Est,Ancien magistrat à la Cour des comptes,Libertés et Territoires,1
+Mayotte,Médecin,La République en Marche,1
+Ile-de-France,Industriel-Chef d'entreprise,La France insoumise,1
+Pays de la Loire,Chef d'entreprise,La République en Marche,1
+Mayotte,Avocat,Les Républicains,1
+Grand Est,Agriculteur,Agir ensemble,1
+Nouvelle-Calédonie,Cadre supérieur de la fonction publique,UDI et Indépendants,1
+Nouvelle-Aquitaine,Avocat,Libertés et Territoires,1
+Nouvelle-Aquitaine,Sans profession déclarée,La République en Marche,1
+Centre-Val de Loire,Cadre supérieur (secteur privé),La République en Marche,1
+Nouvelle-Aquitaine,Notaire,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Grand Est,Cadre supérieur (secteur privé),La République en Marche,1
+Ile-de-France,Ingénieure,La République en Marche,1
+Bretagne,Autre profession libérale,La République en Marche,1
+Hauts-de-France,Professeur des écoles,UDI et Indépendants,1
+Provence-Alpes-Côte d'Azur,Professeur du secondaire et techn.,La République en Marche,1
+Bretagne,Profession rattachée à l'enseignement,La République en Marche,1
+Occitanie,Directrice d'agence bancaire,La République en Marche,1
+Bourgogne-Franche-Comté,Agriculteur-propriétaire exploitant,UDI et Indépendants,1
+Hauts-de-France,Notaire,Les Républicains,1
+Auvergne-Rhône-Alpes,Cadre du secteur privé,Les Républicains,1
+Centre-Val de Loire,Autre cadre (secteur privé),Agir ensemble,1
+Auvergne-Rhône-Alpes,Commerçant,La République en Marche,1
+Ile-de-France,Professeur de lycée professionnel,La France insoumise,1
+Provence-Alpes-Côte d'Azur,Déléguée médicale,Non inscrit,1
+Pays de la Loire,Ex-sportive de haut niveau,La République en Marche,1
+Nouvelle-Calédonie,Fonctionnaire de catégorie A,UDI et Indépendants,1
+Auvergne-Rhône-Alpes,Conseiller d'entreprise,Gauche démocrate et républicaine,1
+Polynésie française,Consultant en communication,Agir ensemble,1
+Auvergne-Rhône-Alpes,Conseiller juridique,La République en Marche,1
+Auvergne-Rhône-Alpes,Sans profession déclarée,La République en Marche,1
+Ile-de-France,Juriste,La République en Marche,1
+Bretagne,Avocat,La République en Marche,1
+Ile-de-France,Fonctionnaire de catégorie A,La République en Marche,1
+Centre-Val de Loire,Chef d'entreprise,Les Républicains,1
+Ile-de-France,Avocate,La République en Marche,1
+Grand Est,Industriel-Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Conseillère en insertion professionnelle,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Provence-Alpes-Côte d'Azur,Enseignant vacataire Faculté,La République en Marche,1
+Bretagne,Agriculteur-propriétaire exploitant,La République en Marche,1
+Normandie,Cadre en certification,La République en Marche,1
+Hauts-de-France,Industriel-Chef d'entreprise,La République en Marche,1
+Saint-Pierre-et-Miquelon,Infographiste,La République en Marche,1
+Hauts-de-France,Directrice d'école,La République en Marche,1
+Auvergne-Rhône-Alpes,Cheffe de projet,La République en Marche,1
+Nouvelle-Aquitaine,Profession libérale,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Grand Est,Cadre d'entreprise,Les Républicains,1
+Ile-de-France,Industriel-Chef d'entreprise,La République en Marche,1
+Auvergne-Rhône-Alpes,Exploitant agricole,Les Républicains,1
+Ile-de-France,Fonctionnaire de catégorie A,La République en Marche,1
+Ile-de-France,Employée (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Pays de la Loire,Comptable,La République en Marche,1
+Pays de la Loire,Officier de l'armée de Terre,La République en Marche,1
+Auvergne-Rhône-Alpes,Fonctionnaire de catégorie B,La République en Marche,1
+Grand Est,Industriel-Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Occitanie,Ingénieur en informatique,Non inscrit,1
+Polynésie française,Professeur du secondaire et technique,UDI et Indépendants,1
+Provence-Alpes-Côte d'Azur,Médecin,Non inscrit,1
+Auvergne-Rhône-Alpes,Cadre hospitalier,La République en Marche,1
+Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
+Ile-de-France,Cadre supérieur,La République en Marche,1
+Centre-Val de Loire,Médecin ,La République en Marche,1
+Grand Est,Professeur du secondaire et technique,La République en Marche,1
+Nouvelle-Aquitaine,Employée du secteur privé,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Bourgogne-Franche-Comté,Co-gérante d'entreprise en disponibilité,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Bourgogne-Franche-Comté,Professeur du secondaire et technique,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Avocate,La République en Marche,1
+Bourgogne-Franche-Comté,Comptable,UDI et Indépendants,1
+Bourgogne-Franche-Comté,Professeur du secondaire ,Les Républicains,1
+Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
+Hauts-de-France,Enseignant chercheur ,Agir ensemble,1
+Auvergne-Rhône-Alpes,Professeur agrégé de biologie,Les Républicains,1
+Pays de la Loire,Cadre administratif,Socialistes et apparentés,1
+Ile-de-France,Industriel-Chef d'entreprise,La République en Marche,1
+Nouvelle-Aquitaine,Médecin,La République en Marche,1
+Pays de la Loire,Directeur de cabinet,UDI et Indépendants,1
+Ile-de-France,Fonctionnaire de catégorie A,La France insoumise,1
+Ile-de-France,Fonctionnaire de l'État retraité,Les Républicains,1
+Pays de la Loire,Ingénieur Arts et métiers,La République en Marche,1
+Polynésie française,Autre profession,Gauche démocrate et républicaine,1
+Auvergne-Rhône-Alpes,Sans profession déclarée,Les Républicains,1
+Nouvelle-Aquitaine,Autre cadre (secteur privé),La République en Marche,1
+Centre-Val de Loire,Maître de conférences,La République en Marche,1
+Centre-Val de Loire,Industriel-Chef d'entreprise,La République en Marche,1
+Nouvelle-Aquitaine,Technicien agricole,Libertés et Territoires,1
+Provence-Alpes-Côte d'Azur,Magistrat à la Cour des Comptes,Les Républicains,1
+Nouvelle-Aquitaine,Professeur de faculté,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
+Bourgogne-Franche-Comté,Autre cadre (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Provence-Alpes-Côte d'Azur,Étudiant en ostéopathie,La République en Marche,1
+Bourgogne-Franche-Comté,Cadre en entreprise,La République en Marche,1
+Ile-de-France,Cadre supérieur (entreprises publiques),La République en Marche,1
+Pays de la Loire,,Les Républicains,1
+Normandie,Cadreur-monteur en vidéo,Les Républicains,1
+Ile-de-France,Agriculteur,Les Républicains,1
+Ile-de-France,Avocat,Les Républicains,1
+Hauts-de-France,Enseignant,Agir ensemble,1
+Nouvelle-Aquitaine,Commercial,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Pays de la Loire,Professeur du secondaire et technique,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Grand Est,Avocat,Les Républicains,1
+Nouvelle-Aquitaine,Cadre (entreprises publiques),La République en Marche,1
+Nouvelle-Aquitaine,Représentant de commerce,La République en Marche,1
+Grand Est,Industriel-Chef d'entreprise,UDI et Indépendants,1
+Ile-de-France,Chef de projet digital,Non inscrit,1
+Pays de la Loire,Retraitée de la fonction publique hospitalière et chargée de formation,La République en Marche,1
+Grand Est,Cadre supérieur (secteur privé),La République en Marche,1
+Hauts-de-France,Profession rattachée à l'enseignement,La République en Marche,1
+Pays de la Loire,Cadre de la fonction publique consulaire,Socialistes et apparentés,1
+Bourgogne-Franche-Comté,Cadre (entreprises publiques),La République en Marche,1
+Nouvelle-Aquitaine,Fonctionnaire de catégorie A,Socialistes et apparentés,1
+Saint-Barthélemy et Saint-Martin,Directrice générale adjointe d'hôtel,Les Républicains,1
+Provence-Alpes-Côte d'Azur,Coordinatrice aménagement numérique,La République en Marche,1
+Grand Est,Professeur des Universités,Les Républicains,1
+Réunion,Retraité de l'éducation nationale,Les Républicains,1
+Ile-de-France,Coordinatrice de projets associatifs,La France insoumise,1
+Ile-de-France,Avocat,La République en Marche,1
+Normandie,Psychologue,Socialistes et apparentés,1
+Centre-Val de Loire,Chef d'entreprise,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Permanent politique,Les Républicains,1
+Occitanie,Professeur du secondaire et technique,La République en Marche,1
+Nouvelle-Aquitaine,Maître de conférences des Universités,La République en Marche,1
+Hauts-de-France,Enseignant du 1er degré-Directeur d'école,UDI et Indépendants,1
+Occitanie,Autre cadre (secteur privé),La République en Marche,1
+Occitanie,Avocat,La République en Marche,1
+Bourgogne-Franche-Comté,Autre cadre (secteur privé),Les Républicains,1
+Hauts-de-France,Médecin généraliste,Socialistes et apparentés,1
+Grand Est,Pharmacien,Les Républicains,1
+Nouvelle-Aquitaine,Cadre de l'industrie,Socialistes et apparentés,1
+Occitanie,Avocat,UDI et Indépendants,1
+Grand Est,Médecin biologiste,Les Républicains,1
+Nouvelle-Aquitaine,Cadre (entreprises publiques),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Français établis hors de France,Entrepreneur,La République en Marche,1
+Ile-de-France,Employé administratif,Gauche démocrate et républicaine,1
+Pays de la Loire,Ingénieur,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Hauts-de-France,Chef de projet dans l'industrie,Les Républicains,1
+Bourgogne-Franche-Comté,Courtier en assurances,La République en Marche,1
+Français établis hors de France,Cadre supérieur (secteur privé),La République en Marche,1
+Provence-Alpes-Côte d'Azur,Juriste,Les Républicains,1
+Grand Est,Agrégé de mathématiques,Les Républicains,1
+Ile-de-France,Profession rattachée à l'enseignement,La République en Marche,1
+Ile-de-France,Cadre d'entreprise,La République en Marche,1
+Centre-Val de Loire,chef d'entreprise,Agir ensemble,1
+Occitanie,Gérant d'une agence de communication,La République en Marche,1
+Occitanie,Fonctionnaire de catégorie A,Libertés et Territoires,1
+Bretagne,Agriculteur,Les Républicains,1
+Ile-de-France,Bibliothécaire,La France insoumise,1
+Nouvelle-Aquitaine,Fonctionnaire de catégorie B,La France insoumise,1
+Hauts-de-France,Autre cadre (secteur privé),La République en Marche,1
+Ile-de-France,Professeur de faculté,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Occitanie,Infirmière anesthésiste,Agir ensemble,1
+Occitanie,Professeur du secondaire et technique,Libertés et Territoires,1
+Occitanie,Ingénieure,Socialistes et apparentés,1
+Ile-de-France,Avocat,Les Républicains,1
+Hauts-de-France,Ingénieure mécanicienne,La République en Marche,1
+Ile-de-France,Cadre (entreprises publiques),La République en Marche,1
+Hauts-de-France,Conseillère Développement économique,La République en Marche,1
+Hauts-de-France,Fonctionnaire de catégorie A,Agir ensemble,1
+Nouvelle-Aquitaine,Professeur du secondaire,Libertés et Territoires,1
+Pays de la Loire,Cadre supérieur (entreprises publiques),Non inscrit,1
+Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
+Nouvelle-Aquitaine,Chef d'entreprise,La République en Marche,1
+Grand Est,Directeur du développement,Libertés et Territoires,1
+Ile-de-France,Cadre supérieur (secteur privé),La République en Marche,1
+Ile-de-France,Consultant,La République en Marche,1
+Grand Est,Gestionnaire référent-Régisseur d'avances et de recettes,,1
+Normandie,Maître de conférences à Sciences Po,Les Républicains,1
+Centre-Val de Loire,Autre cadre (secteur privé),Non inscrit,1
+Français établis hors de France,Cadre supérieur (secteur privé),Non inscrit,1
+Provence-Alpes-Côte d'Azur,Rédacteur territorial,Les Républicains,1
+Grand Est,Autre cadre (secteur privé),La République en Marche,1
+Auvergne-Rhône-Alpes,Fonctionnaire territorial,Socialistes et apparentés,1
+Français établis hors de France,Agent contractuel au Parlement européen,La République en Marche,1
+Occitanie,Industriel-Chef d'entreprise,La République en Marche,1
+Auvergne-Rhône-Alpes,Autre profession libérale,La République en Marche,1
+Occitanie,Industriel-Chef d'entreprise,La République en Marche,1
+Ile-de-France,Cadre supérieur (secteur privé),Les Républicains,1
+Nouvelle-Aquitaine,Ingénieur,Socialistes et apparentés,1
+Hauts-de-France,Fonctionnaire territorial,Non inscrit,1
+Occitanie,Cadre supérieur (secteur privé),La République en Marche,1
+Auvergne-Rhône-Alpes,,Les Républicains,1
+Pays de la Loire,Cadre supérieur (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Hauts-de-France,Associé dans un cabinet d'audit international,Les Républicains,1
+Hauts-de-France,Opticien audioprothésiste,Agir ensemble,1
+Occitanie,Journaliste et autre média,La République en Marche,1
+Occitanie,Ingénieur,La République en Marche,1
+Occitanie,,Libertés et Territoires,1
+Ile-de-France,Retraité de la fonction publique,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Bretagne,"Enseignant du 1er degré, directeur d'école",La République en Marche,1
+Hauts-de-France,,Non inscrit,1
+Hauts-de-France,Profession rattachée à l'enseignement,Libertés et Territoires,1
+Grand Est,Salariée du secteur médical,La France insoumise,1
+Ile-de-France,Sans profession déclarée,Les Républicains,1
+Nouvelle-Aquitaine,Cadre supérieur (secteur privé),La République en Marche,1
+Grand Est,Fonctionnaire de catégorie A,Non inscrit,1
+Ile-de-France,Cadre bancaire,Les Républicains,1
+Auvergne-Rhône-Alpes,Retraité,,1
+Normandie,Enseignant 1er degré-directeur d'école (en disponibilité),La République en Marche,1
+Normandie,Cadre supérieur (secteur privé),La République en Marche,1
+Français établis hors de France,Sans profession déclarée,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Autre cadre (secteur privé),Les Républicains,1
+Auvergne-Rhône-Alpes,Professeur certifié de SES,Non inscrit,1
+Auvergne-Rhône-Alpes,Autre cadre (secteur privé),La République en Marche,1
+Occitanie,Retraitée professeur d'université - ancienne présidente d'université,La République en Marche,1
+Auvergne-Rhône-Alpes,Ancien avocat,Les Républicains,1
+Ile-de-France,Industriel-Chef d'entreprise,La République en Marche,1
+Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
+Auvergne-Rhône-Alpes,Retraitée Fonction publique territoriale,La République en Marche,1
+Ile-de-France,Cadre supérieur (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Nouvelle-Aquitaine,Responsable formation - Cadre en ressources humaines,Libertés et Territoires,1
+Occitanie,Fonctionnaire territorial,La République en Marche,1
+Grand Est,Ostéopathe,La République en Marche,1
+Occitanie,Journaliste et autre média,Non inscrit,1
+Hauts-de-France,Permanent politique,Les Républicains,1
+Hauts-de-France,Retraitée salariée (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Entrepreneur,La République en Marche,1
+Bretagne,Cadre supérieur (secteur privé),La République en Marche,1
+Auvergne-Rhône-Alpes,,La République en Marche,1
+Hauts-de-France,Retraité salarié privé,Gauche démocrate et républicaine,1
+Normandie,Industriel-Chef d'entreprise,Libertés et Territoires,1
+Nouvelle-Aquitaine,Diplomate de carrière (ministre plénipotentiaire en retraite),Les Républicains,1
+Bretagne,Cadre supérieur du secteur privé,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Chirurgien-Dentiste,Les Républicains,1
+Ile-de-France,Journaliste et autre média,La France insoumise,1
+Ile-de-France,Cadre supérieur du secteur privé,La République en Marche,1
+Grand Est,Sans profession déclarée,Les Républicains,1
+Provence-Alpes-Côte d'Azur,Cadre du secteur privé retraité,Les Républicains,1
+Auvergne-Rhône-Alpes,Professeur de médecine,La République en Marche,1
+Auvergne-Rhône-Alpes,Agent d'assurances,La République en Marche,1
+Français établis hors de France,Médecin,Non inscrit,1
+Occitanie,Fonctionnaire de catégorie A,La République en Marche,1
+Auvergne-Rhône-Alpes,Industriel-Chef d'entreprise,Agir ensemble,1
+Auvergne-Rhône-Alpes,Salariée du secteur médical,La République en Marche,1
+Ile-de-France,Administrateur des Finances publiques adjoint,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Fonctionnaire de catégorie A,Non inscrit,1
+Auvergne-Rhône-Alpes,Industriel-Chef entreprise,La République en Marche,1
+Nouvelle-Aquitaine,Fonctionnaire de catégorie B,La République en Marche,1
+Hauts-de-France,Juriste,Non inscrit,1
+Hauts-de-France,Pharmacienne,UDI et Indépendants,1
+Ile-de-France,Responsable commercial (santé dentaire),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Pays de la Loire,Cadre supérieur (secteur privé),La République en Marche,1
+Occitanie,Maître de conférences en droit public à l'Université,Agir ensemble,1
+Ile-de-France,Employée,Gauche démocrate et républicaine,1
+Occitanie,Professeur de faculté,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Occitanie,Conseiller patrimonial,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Avocate,La République en Marche,1
+Nouvelle-Aquitaine,Agriculteur-propriétaire exploitant,La République en Marche,1
+Grand Est,Consultante,La République en Marche,1
+Centre-Val de Loire,Conseiller ministériel,La République en Marche,1
+Grand Est,Dentiste,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Directrice commerciale,La République en Marche,1
+Grand Est,Médecin,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Manager public,La République en Marche,1
+Ile-de-France,Cadre supérieur,Les Républicains,1
+Provence-Alpes-Côte d'Azur,Avocat,Agir ensemble,1
+Grand Est,Chef d'entreprise dans l'œnologie,Agir ensemble,1
+Auvergne-Rhône-Alpes,Consultant sécurité,Les Républicains,1
+Français établis hors de France,Ingénieur,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Occitanie,Enseignante 1er degré-directrice d'école,La République en Marche,1
+Auvergne-Rhône-Alpes,Professeur de faculté,La République en Marche,1
+Auvergne-Rhône-Alpes,Médecin,La République en Marche,1
+Guadeloupe,Expert comptable,La République en Marche,1
+Auvergne-Rhône-Alpes,Cadre supérieur (secteur privé),Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Bourgogne-Franche-Comté,Retraitée de l'enseignement,La République en Marche,1
+Auvergne-Rhône-Alpes,Autre profession libérale,La République en Marche,1
+Ile-de-France,Infirmière libérale,Les Républicains,1
+Pays de la Loire,Directeur régional des ventes,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Pays de la Loire,Avocat,La République en Marche,1
+Nouvelle-Aquitaine,Autre cadre (secteur privé),La République en Marche,1
+Ile-de-France,Attaché de direction,UDI et Indépendants,1
+Provence-Alpes-Côte d'Azur,Employée de la fonction publique retraitée,La République en Marche,1
+Hauts-de-France,Avocate,Non inscrit,1
+Centre-Val de Loire,Cardiologue,Les Républicains,1
+Hauts-de-France,Employé (secteur privé),Les Républicains,1
+Occitanie,Artisan,La République en Marche,1
+Occitanie,Cadre supérieur (secteur privé),La République en Marche,1
+Nouvelle-Aquitaine,Professeur du secondaire ,La République en Marche,1
+Ile-de-France,Autre cadre (secteur privé),La République en Marche,1
+Nouvelle-Aquitaine,Retraité des professions libérales,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Retraité,La République en Marche,1
+Grand Est,Fonctionnaire de catégorie A,La République en Marche,1
+Corse,Professeur des Universités,Libertés et Territoires,1
+Bretagne,Navigateur,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Grand Est,Cadre d'entreprise chargé des relations sociales,Les Républicains,1
+Provence-Alpes-Côte d'Azur,Employé (secteur privé),Gauche démocrate et républicaine,1
+Grand Est,Industriel-Chef d'entreprise,La République en Marche,1
+Français établis hors de France,Ingénieur,UDI et Indépendants,1
+Occitanie,Avocat,La République en Marche,1
+Auvergne-Rhône-Alpes,Médecin,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Pays de la Loire,Cadre supérieur de la fonction publique territoriale,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Auvergne-Rhône-Alpes,Salariée agricole,Les Républicains,1
+Auvergne-Rhône-Alpes,Cadre (entreprises publiques),Socialistes et apparentés,1
+Bourgogne-Franche-Comté,Pharmacienne,Les Républicains,1
+Guadeloupe,Fonctionnaire de catégorie B,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Guadeloupe,Pharmacienne,Socialistes et apparentés,1
+Auvergne-Rhône-Alpes,Consultante,La République en Marche,1
+Bourgogne-Franche-Comté,Autre profession,Les Républicains,1
+Ile-de-France,Cadre en entreprise,La République en Marche,1
+Nouvelle-Aquitaine,Sans profession déclarée,La République en Marche,1
+Ile-de-France,Professeur du secondaire et technique,La France insoumise,1
+Ile-de-France,Juriste,La République en Marche,1
+Nouvelle-Aquitaine,Cadre supérieur du secteur public,La République en Marche,1
+Hauts-de-France,Masseur-kinésithérapeute,La République en Marche,1
+Occitanie,Autre profession libérale,La République en Marche,1
+Nouvelle-Aquitaine,Retraité salarié du privé,La République en Marche,1
+Provence-Alpes-Côte d'Azur,Expert foncier et commercial,Les Républicains,1
+Nouvelle-Aquitaine,Avocate,Les Républicains,1
+Corse,Cadre,Libertés et Territoires,1
+Bretagne,Agriculteur-propriétaire exploitant,La République en Marche,1
+Nouvelle-Aquitaine,Retraitée de l'enseignement,La République en Marche,1
+Grand Est,Attaché Parlementaire,Les Républicains,1
+Provence-Alpes-Côte d'Azur,Chargée des relations extérieures - secteur télécom,La République en Marche,1
+Auvergne-Rhône-Alpes,Fonctionnaire de catégorie A,La République en Marche,1
+Ile-de-France,agent immobilier,Agir ensemble,1
+Grand Est,cadre territorial,Agir ensemble,1
+Provence-Alpes-Côte d'Azur,Chef d'entreprise,Les Républicains,1
+Bourgogne-Franche-Comté,Industriel-Chef d'entreprise,La République en Marche,1
+Auvergne-Rhône-Alpes,Autre cadre (secteur privé),Socialistes et apparentés,1
+Bourgogne-Franche-Comté,Professeur d'économie,La République en Marche,1
+Guadeloupe,Fonction publique territoriale,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Martinique,Retraitée salariée (secteur privé),Socialistes et apparentés,1
+Ile-de-France,Directrice générale adjointe d'une agence de communication,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Bourgogne-Franche-Comté,Ancien viticulteur,Les Républicains,1
+Nouvelle-Aquitaine,Sans profession déclarée,Mouvement Démocrate (MoDem) et Démocrates apparentés,1
+Ile-de-France,Enseignant du 1er dégré-Directeur d'école,La République en Marche,1
+Ile-de-France,Ancien auto-entrepreneur,Agir ensemble,1
+Nouvelle-Aquitaine,Fonctionnaire de catégorie A,La République en Marche,1
+vice-président de conseil régional,etranger,autre,0
+vice-président établissement public ,autre,,0
+président de conseil régional,autre,Agir ensemble,0
+vice-président de conseil départemental,autre,,0
+autre,etranger,autre,0
+membre du Parlement européen,UE,Agir ensemble,0
+président établissement public,etranger,,0
+,UE,,0
+autre,UE,autre,0
+vice-président de conseil départemental,autre,autre,0
+autre,ue,,0
+président de conseil départemental,Etranger,Agir ensemble,0
+président syndicat mixte,autre,,0
+vice-président de conseil régional,ue,autre,0
+,autre,,0
+autre,ue,Les Républicains,0
+vice-président de conseil régional,etranger,,0
+président de conseil départemental,Etranger,,0
+Maire,etranger,autre,0
+président établissement public,UE,Les Républicains,0
+Maire,etranger,Les Républicains,0
+vice-président de conseil départemental,ue,,0
+,ue,Les Républicains,0
+président syndicat mixte,ue,Agir ensemble,0
+vice-président établissement public ,UE,,0
+vice-président de conseil régional,ue,autre,0
+président syndicat mixte,Etranger,,0
+vice-président de conseil régional,UE,,0
+autre,ue,Les Républicains,0
+président syndicat mixte,autre,,0
+président établissement public,UE,Agir ensemble,0
+Maire,autre,,0
+président de conseil départemental,Etranger,autre,0
+vice-président syndicat mixte,UE,autre,0
+président établissement public,ue,,0
+Maire,Etranger,Agir ensemble,0
+,ue,autre,0
+président établissement public,autre,Les Républicains,0
+président syndicat mixte,etranger,,0
+membre du Parlement européen,UE,,0

@@ -7,17 +7,15 @@ from sklearn.metrics import confusion_matrix
 from sklearn.datasets import load_iris
 import pandas as pd
 
-df=pd.read_csv("./data/data_for_DT.csv")
-print(df.head())
+df=pd.read_csv("../data/data_for_DT.csv")
 
-
-"""iris = load_iris()
+iris = load_iris()
 df_iris = pd.DataFrame(iris.data, columns=iris.feature_names)
 df_iris['label'] = pd.Series(iris.target)
 
 print(df_iris.head())
 
-sc = SparkContext().getOrCreate()
+"""sc = SparkContext().getOrCreate()
 sqlContext = SQLContext(sc)
 
 data = sqlContext.createDataFrame(df_iris)

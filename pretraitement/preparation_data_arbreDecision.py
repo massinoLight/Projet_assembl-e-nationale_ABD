@@ -45,4 +45,4 @@ df2.show()
 #df2.write.csv("../data/data_for_DT.csv")
 
 
-df2.toPandas().to_csv('../data/data_for_DT.csv')
+df2.toPandas().to_csv('../data/data_for_DT.csv',index=False)
