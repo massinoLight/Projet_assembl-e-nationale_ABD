@@ -3,6 +3,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import lit
 
 
+
 ######################################################################################
 #                                                                                    #
 #  On va injecter des données pour aider a entrainer le modéle d'arbre de décision   #
@@ -18,9 +19,9 @@ spark= SparkSession.builder \
 profession_non_autorise = ['Maire', 'membre du Parlement européen', 'président établissement public',
                        'viceprésident établissement public ','président de conseil départemental','viceprésident de conseil départemental',
                        'président de conseil régional','vice-président de conseil régional',
-                       'président syndicat mixte','viceprésident syndicat mixte','','autre']
+                       'président syndicat mixte','viceprésident syndicat mixte','autre']
 region_non_autorise = ['UE','Etranger','etranger','ue','autre']
-GroupePolitique_non_autorise = ['','','Les Républicains','Agir ensemble','autre']
+GroupePolitique_non_autorise = ['Les Républicains','Agir ensemble','autre']
 
 columns = ['Région','Profession','Groupe politique (complet)','label']
 
@@ -34,7 +35,7 @@ df2=df.drop("identifiant","Prénom","Nom","Département","Numéro de circonscrip
 df2=df2.withColumn("label", lit(1))
 
 
-for i in range(0,100):
+for i in range(0,560):
     newRow = spark.createDataFrame([(profession_non_autorise[random.randint(0,len(profession_non_autorise)-1)],
                                      region_non_autorise[random.randint(0,len(region_non_autorise)-1)],
                                      GroupePolitique_non_autorise[random.randint(0,len(GroupePolitique_non_autorise)-1)],0)], columns)
@@ -48,3 +49,7 @@ df2.show()
 
 
 df2.toPandas().to_csv('../data/data_for_DT.csv',index=False)
+
+
+
+

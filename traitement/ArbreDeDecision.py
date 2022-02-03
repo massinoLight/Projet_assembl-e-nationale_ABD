@@ -1,39 +1,41 @@
+
+from pyspark.sql.types import StructType,StructField, StringType, IntegerType
+from pyspark.ml.feature import StringIndexer
 from pyspark import SparkContext
 from pyspark.sql import SQLContext
 from pyspark.ml.classification import DecisionTreeClassifier
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 from pyspark.ml.feature import VectorAssembler
 from sklearn.metrics import confusion_matrix
-from sklearn.datasets import load_iris
+from pyspark.mllib.tree import DecisionTree, DecisionTreeModel
+from pyspark.mllib.util import MLUtils
+
 import pandas as pd
 
-df=pd.read_csv("../data/data_for_DT.csv")
 
-iris = load_iris()
-df_iris = pd.DataFrame(iris.data, columns=iris.feature_names)
-df_iris['label'] = pd.Series(iris.target)
 
-print(df_iris['label'])
-
+df=pd.read_csv("../data/dataVector_for_DT.csv")
 sc = SparkContext().getOrCreate()
 sqlContext = SQLContext(sc)
+data = sqlContext.createDataFrame(data=df)
 
-data = sqlContext.createDataFrame(df_iris)
-print(data.printSchema())
 
-print(type(data))
-features = iris.feature_names
-print(features)
+data.show()
 
-va = VectorAssembler(inputCols = features, outputCol='features')
 
-va_df = va.transform(data)
-va_df = va_df.select(['features', 'label'])
-va_df.show(3)
+(train, test) = data.randomSplit([0.7, 0.3])
 
-(train, test) = va_df.randomSplit([0.7, 0.3])
 
-dtc = DecisionTreeClassifier(featuresCol="features", labelCol="label")
+
+
+dtc = DecisionTreeClassifier(featuresCol="features", labelCol="label",impurity='gini', maxDepth=5, maxBins=32)
+dtc = dtc.fit(train)
+
+"""
+model = DecisionTree.trainClassifier(train, numClasses=2, categoricalFeaturesInfo={},
+                                         impurity='gini', maxDepth=5, maxBins=32)
+
+
 dtc = dtc.fit(train)
 
 pred = dtc.transform(test)
@@ -52,6 +54,4 @@ print("Confusion Matrix:")
 print(cm)
 
 sc.stop()
-
-
-
+"""

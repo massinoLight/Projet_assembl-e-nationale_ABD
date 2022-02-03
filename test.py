@@ -1,73 +1,29 @@
-from pyspark import SparkContext
-from pyspark.sql import SQLContext
-from pyspark.ml.classification import DecisionTreeClassifier
-from pyspark.ml.evaluation import MulticlassClassificationEvaluator
-from pyspark.ml.feature import VectorAssembler
-from sklearn.metrics import confusion_matrix
-from pyspark.sql.types import StructType,StructField, StringType, IntegerType
-from pyspark.ml.feature import StringIndexer
+
+
 import pandas as pd
+from nbconvert.preprocessors import Preprocessor
+from pyspark import SparkContext, SQLContext
+from pyspark.ml.classification import DecisionTreeClassifier
+from pyspark.ml import Pipeline
+from pyspark.sql import SparkSession
 
-df=pd.read_csv("./data/data_for_DT.csv")
-print(df.head())
-columns = ['Région','Profession','Groupe politique (complet)','label']
+spark= SparkSession.builder \
+    .master("local") \
+    .appName("Data Exploration") \
+    .getOrCreate()
 
-
-schema = StructType([ \
-    StructField("Région",StringType(),False), \
-    StructField("Profession",StringType(),False), \
-    StructField("Groupe politique (complet)",StringType(),False), \
-    StructField("label", IntegerType(), False) \
-  ])
-
-sc = SparkContext().getOrCreate()
-sqlContext = SQLContext(sc)
-
-data = sqlContext.createDataFrame(data=df,schema=schema)
-print(data.printSchema())
-
-data.show()
+df = spark.read.option("header",True) \
+     .csv("./data/dataVector_for_DT.csv")
 
 
-Region_indexer = StringIndexer(inputCol="Région", outputCol="Regionindex")
-data = Region_indexer.fit(data).transform(data)
 
-Profession_indexer = StringIndexer(inputCol="Profession", outputCol="Professionindex")
-data = Profession_indexer.fit(data).transform(data)
+df.show()
+(trainingData, testData) = df.randomSplit([0.7, 0.3])
 
-Groupe_indexer = StringIndexer(inputCol="Groupe politique (complet)", outputCol="GPindex")
-data = Groupe_indexer.fit(data).transform(data)
-data.show()
+dt = DecisionTreeClassifier(labelCol="label", featuresCol="features")
+pipeline = Pipeline(stages=[df.select("label"), df.select("features"), dt])
 
-va = VectorAssembler(inputCols = ['Regionindex','Professionindex','GPindex'], outputCol='features')
-
-va_df = va.transform(data)
-va_df = va_df.select(['features', 'label'])
-va_df.show()
-
-(train, test) = va_df.randomSplit([0.8, 0.2])
-print(type(train))
+model = pipeline.fit(trainingData)
 
 
-"""
-dtc = DecisionTreeClassifier(featuresCol="features", labelCol="label")
-dtc = dtc.fit(train)
 
-pred = dtc.transform(test)
-pred.show(3)
-
-evaluator = MulticlassClassificationEvaluator(predictionCol="prediction")
-acc = evaluator.evaluate(pred)
-
-print("Prediction Accuracy: ", acc)
-
-y_pred = pred.select("prediction").collect()
-y_orig = pred.select("label").collect()
-
-cm = confusion_matrix(y_orig, y_pred)
-print("Confusion Matrix:")
-print(cm)
-
-sc.stop()
-
-"""
