@@ -13,7 +13,7 @@ iris = load_iris()
 df_iris = pd.DataFrame(iris.data, columns=iris.feature_names)
 df_iris['label'] = pd.Series(iris.target)
 
-
+print(df_iris['label'])
 
 sc = SparkContext().getOrCreate()
 sqlContext = SQLContext(sc)
@@ -21,8 +21,9 @@ sqlContext = SQLContext(sc)
 data = sqlContext.createDataFrame(df_iris)
 print(data.printSchema())
 
-
+print(type(data))
 features = iris.feature_names
+print(features)
 
 va = VectorAssembler(inputCols = features, outputCol='features')
 

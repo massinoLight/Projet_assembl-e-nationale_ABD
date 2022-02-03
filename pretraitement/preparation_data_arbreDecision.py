@@ -16,9 +16,9 @@ spark= SparkSession.builder \
 
 
 profession_non_autorise = ['Maire', 'membre du Parlement européen', 'président établissement public',
-                       'vice-président établissement public ','président de conseil départemental','vice-président de conseil départemental',
+                       'viceprésident établissement public ','président de conseil départemental','viceprésident de conseil départemental',
                        'président de conseil régional','vice-président de conseil régional',
-                       'président syndicat mixte','vice-président syndicat mixte','','autre']
+                       'président syndicat mixte','viceprésident syndicat mixte','','autre']
 region_non_autorise = ['UE','Etranger','etranger','ue','autre']
 GroupePolitique_non_autorise = ['','','Les Républicains','Agir ensemble','autre']
 
@@ -33,7 +33,8 @@ df.show()
 df2=df.drop("identifiant","Prénom","Nom","Département","Numéro de circonscription","Groupe politique (abrégé)")
 df2=df2.withColumn("label", lit(1))
 
-for i in range(0,40):
+
+for i in range(0,100):
     newRow = spark.createDataFrame([(profession_non_autorise[random.randint(0,len(profession_non_autorise)-1)],
                                      region_non_autorise[random.randint(0,len(region_non_autorise)-1)],
                                      GroupePolitique_non_autorise[random.randint(0,len(GroupePolitique_non_autorise)-1)],0)], columns)
