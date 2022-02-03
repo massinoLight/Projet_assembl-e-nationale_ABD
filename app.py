@@ -1,9 +1,6 @@
-from distributed.http.utils import redirect
-from flask import Flask, render_template, request, url_for, redirect
-from datetime import  timedelta, datetime
+from flask import Flask, render_template, request
 
 from traitement.recherche_wiki import recherche_wikipedia
-from traitement.scraping_google_images import _get_random_image
 
 app = Flask(__name__)
 
@@ -26,6 +23,12 @@ def contact():
     return render_template('contact.html')
 
 
+
+@app.route('/predict',methods=["GET", "POST"])
+def contact():
+
+
+    return render_template('main.html')
 
 
 
