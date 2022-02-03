@@ -1,6 +1,7 @@
 from pyparsing import col
-from pyspark.pandas.spark.functions import lit
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import lit
+
 
 
 
@@ -19,5 +20,6 @@ df.printSchema()
 df.show()
 df2=df.drop("identifiant","Prénom","Nom","Département","Numéro de circonscription","Groupe politique (abrégé)")
 df2=df2.withColumn("bonus_percent", lit(1))
+#df2=df2.withColumn("bonus_percent", lit(1))
 df2.printSchema()
 df2.show()
