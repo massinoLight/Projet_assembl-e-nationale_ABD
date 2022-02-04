@@ -1,25 +1,22 @@
-
+from pyspark.sql import SparkSession
+from pyspark import SparkFiles, Row
+from pyspark.ml.feature import VectorAssembler
+from pyspark.ml.feature import StringIndexer
+from pyspark.ml import Pipeline
 from pyspark.ml.classification import DecisionTreeClassifier
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
-from pyspark.mllib.linalg import DenseVector
-from pyspark.sql.types import Row
-from pyspark.sql import SparkSession
 
-
-def show_accuracy(predictions):
-    evaluator = MulticlassClassificationEvaluator(metricName="accuracy")
-    accuracy = evaluator.evaluate(predictions)
-    print("Accuracy = {:.2f} %".format(accuracy*100))
 
 spark= SparkSession.builder \
     .master("local") \
     .appName("Data Exploration") \
     .getOrCreate()
 
+def get_data_pipline(row):
+    indexer1 = StringIndexer(inputCol=row[0], outputCol="rg_index", handleInvalid='keep')
+    indexer2 = StringIndexer(inputCol=row[1], outputCol="pr_index", handleInvalid='keep')
+    indexer3 = StringIndexer(inputCol=row[2], outputCol="gp_index", handleInvalid='keep')
+    print(indexer3,indexer2,indexer1)
 
 
-row = Row(label=0, features=DenseVector([1.0,0.0, 0.0]))
-
-DTmodel = DecisionTreeClassifier.load("./models/DT")
-print("model load")
-#print(DTmodel.setPredictionCol(row))
+get_data_pipline(["Maire","Paris","republicain"])

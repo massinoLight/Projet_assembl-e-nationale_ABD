@@ -1,6 +1,6 @@
-
+from pyspark.mllib.linalg import DenseVector
 from pyspark.sql import SparkSession
-from pyspark import SparkFiles
+from pyspark import SparkFiles, Row
 from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.feature import StringIndexer
 from pyspark.ml import Pipeline
@@ -45,4 +45,6 @@ predictions = model.transform(testData)
 
 show_accuracy(predictions)
 
-model.save("./models/DT")
+#model.save("./models/DT")
+print("model saved")
+
