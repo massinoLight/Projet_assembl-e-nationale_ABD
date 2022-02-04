@@ -21,4 +21,5 @@ spark= SparkSession.builder \
 row = Row(label=0, features=DenseVector([1.0,0.0, 0.0]))
 
 DTmodel = DecisionTreeClassifier.load("./models/DT")
-print(DTmodel.setPredictionCol(row))
+print("model load")
+#print(DTmodel.setPredictionCol(row))

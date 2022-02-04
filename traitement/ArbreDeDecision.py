@@ -45,4 +45,4 @@ predictions = model.transform(testData)
 
 show_accuracy(predictions)
 
-#model.save("./models/DT")
+model.save("./models/DT")
