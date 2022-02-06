@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stat</title>
+    <!--Chart.js JS CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+  </head>
+  <body>
+
+    <div>
+	<canvas id="pie-chart" width="450" height="450"></canvas>
+    </div>
+
+    <script>
+
+
+new Chart(document.getElementById("pie-chart"), {
+    type: 'pie',
+    data: {
+      labels: ["Homme", "Femme"],
+      datasets: [{
+        label: "Nombre ",
+        backgroundColor: ["#3e95cd", "#8e5ea2"],
+        data: [{{ homme }},{{ femme }}]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'nombre homme femme '
+      }
+    }
+});
+
+    </script>
+
+
+
+  </body>
+</html>

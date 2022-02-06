@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
   	<title>Projet Assemblée nationale</title>
     <meta charset="utf-8">
@@ -22,14 +22,14 @@
 
 
 	          <li>
-              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Afficher les projets</a>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Afficher les fonctions</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
 
                    <li>
-                    <a href="">Stat</a>
+                    <a href="{{ url_for('stat') }}">Stat</a>
                 </li>
                   <li>
-                    <a href="">IA</a>
+                    <a href="{{ url_for('IA') }}">IA</a>
                 </li>
 
 
@@ -74,48 +74,7 @@
 
 
 
-<div class="container">
 
-	<div class="table">
-		<div class="table-header">
-
-			<div class="header__item"><a id="wins" class="filter__link filter__link--number" href="#">Projet</a></div>
-
-		</div>
-		<div class="table-content">
-			<div class="table-row">
-				<form action="/" >
-
-    <label for="fname">Profession</label>
-    <input type="text" id="fname" name="profession" placeholder="Profession">
-
-    <label for="lname">Groupe politique</label>
-    <input type="text" id="lname" name="gp" placeholder="politique">
-
-    <label for="country">Region</label>
-    <select id="country" name="country">
-      <option value="australia">UE</option>
-      <option value="canada">France</option>
-      <option value="usa">Autre</option>
-    </select>
-
-    <input type="submit" value="Submit">
-
-  </form>
-
-
-
-
-			</div>
-
-
-
-
-
-			</div>
-
-		</div>
-	</div>
 </div>
 
 

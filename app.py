@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 
+from traitement.count_homme_femme import count_homme_femme
 from traitement.recherche_wiki import recherche_wikipedia
 from pyspark.ml.classification import  DecisionTreeClassificationModel
 from pyspark.ml.linalg import Vectors
@@ -43,13 +44,13 @@ def contact():
 
 
 
-@app.route('/predict',methods=["GET", "POST"])
-def contact():
+
+@app.route('/ia')
+def IA():
+    return render_template('IA.html')
 
 
-    return render_template('main.html')
-
-
-
-
-
+@app.route('/stat')
+def stat():
+    hommes,femmes=count_homme_femme()
+    return render_template('stat.html',homme=hommes,femme=femmes)
