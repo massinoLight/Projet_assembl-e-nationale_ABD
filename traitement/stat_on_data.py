@@ -1,13 +1,13 @@
 
 from pyspark.sql.functions import countDistinct, count, col
 from pyspark.sql import SparkSession
-
-
-def count_homme_femme():
-    spark = SparkSession.builder \
+spark = SparkSession.builder \
         .master("local") \
         .appName("Data Exploration") \
         .getOrCreate()
+
+def count_homme_femme():
+
 
     df = spark.read.option("header",True) \
      .csv("./data/depute_homme_femme.csv")
@@ -17,3 +17,13 @@ def count_homme_femme():
     hommes=df2.select("count").collect()[1][0]
     return hommes,femmes
 
+
+
+def count_groupe_politique():
+
+    df = spark.read.option("header",True) \
+     .csv("./data/liste_deputes_libre_office.csv")
+    return df.groupBy('Groupe politique (complet)').count()
+
+
+count_groupe_politique()

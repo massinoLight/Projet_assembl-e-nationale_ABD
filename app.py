@@ -1,10 +1,12 @@
 from flask import Flask, render_template, request
 
-from traitement.count_homme_femme import count_homme_femme
+from traitement.stat_on_data import count_homme_femme, count_groupe_politique
 from traitement.recherche_wiki import recherche_wikipedia
 from pyspark.ml.classification import  DecisionTreeClassificationModel
 from pyspark.ml.linalg import Vectors
 from pyspark.sql import SparkSession
+import random
+
 
 
 def get_predicion(row):
@@ -52,5 +54,19 @@ def IA():
 
 @app.route('/stat')
 def stat():
+    groupepolitique=[]
+    membre=[]
+    color=[]
     hommes,femmes=count_homme_femme()
-    return render_template('stat.html',homme=hommes,femme=femmes)
+    df=count_groupe_politique()
+    for i in range(0,len(df.collect())):
+        if df.collect()[i][0] == None:
+            groupepolitique.append("inconnu")
+        else:
+            groupepolitique.append(df.collect()[i][0])
+        membre.append(df.collect()[i][1])
+
+    print(groupepolitique)
+    print(membre)
+
+    return render_template('stat.html',homme=hommes,femme=femmes,values=membre,labels=groupepolitique)
