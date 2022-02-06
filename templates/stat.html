@@ -7,21 +7,24 @@
     <title>Stat</title>
     <!--Chart.js JS CDN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+     <!--<link rel="stylesheet" href="../static/css/chart.css">-->
   </head>
   <body>
 
-  <div style="width:500px;height:240px">
+  <div class=pie >
     <canvas id="pie-chart"></canvas>
     </div>
-    <div style="width:800px;height:240px">
-    <canvas id="doughnut-chart" ></canvas>
 
+    <div class="doughnut" >
+    <canvas id="doughnut-chart" ></canvas>
+    </div>
+
+   <div class="polar">
+    <canvas id="polar-chart" ></canvas>
     </div>
 
 
     <script>
-
-
 new Chart(document.getElementById("pie-chart"), {
     type: 'pie',
     data: {
@@ -44,10 +47,6 @@ new Chart(document.getElementById("pie-chart"), {
 
      <script>
 
-
-
-
-
 new Chart(document.getElementById("doughnut-chart"), {
     type: 'doughnut',
     data: {
@@ -58,7 +57,7 @@ new Chart(document.getElementById("doughnut-chart"), {
           ],
       datasets: [
         {
-          label: "Population (millions)",
+          label: "Membre",
           backgroundColor: ["#f23d3a", "#19da2", "#62c07d", "#98110c", "#e81930", "#7f5ad7", "#d7d570", "#623534", "#607c1d", "#5f1f8a", "#8c0927"],
           data: [
           {% for item in values %}
@@ -71,7 +70,43 @@ new Chart(document.getElementById("doughnut-chart"), {
     options: {
       title: {
         display: true,
-        text: 'Membre par groupe <politique></politique>'
+        text: 'Membre par groupe politique'
+      }
+    }
+});
+
+    </script>
+
+
+
+  <script>
+
+new Chart(document.getElementById("polar-chart"), {
+    type: 'polarArea',
+    data: {
+      labels: [
+      {% for item in region %}
+            "{{ item }}",
+          {% endfor %}
+          ],
+      datasets: [
+        {
+          label: "Region",
+          backgroundColor: ["#1915fb", "#69b4b", "#3812c4", "#8aea44", "#22feb5", "#c53bd", "#36ebb",
+          "#398f24", "#5d4a0c", "#b50ee2", "#2d65f4", "#ba6da4", "#887835", "#2a824b", "#b61abd",
+          "#4e5f57", "#cb6d80", "#bd1999", "#ee4341", "#c111b", "#f6a215", "#2d1753", "#20fa54", "#ac0a17"],
+          data: [
+          {% for item in count %}
+              {{ item }},
+            {% endfor %}
+          ]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Rgion les plus representées'
       }
     }
 });
@@ -81,6 +116,9 @@ new Chart(document.getElementById("doughnut-chart"), {
 
 
     </script>
+
+
+
 
 
   </body>

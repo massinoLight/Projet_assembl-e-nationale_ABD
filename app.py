@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-from traitement.stat_on_data import count_homme_femme, count_groupe_politique
+from traitement.stat_on_data import count_homme_femme, count_groupe_politique, count_region
 from traitement.recherche_wiki import recherche_wikipedia
 from pyspark.ml.classification import  DecisionTreeClassificationModel
 from pyspark.ml.linalg import Vectors
@@ -21,7 +21,14 @@ def get_predicion(row):
     print(DTmodel.toDebugString)
 
     return DTmodel.predict(test0.head().features)
-
+def rand_color(T):
+  for i in range(0, T):
+    color = []
+    random_number = random.randint(0, 16777215)
+    hex_number = str(hex(random_number))
+    hex_number = '#' + hex_number[2:]
+    color.append(hex_number)
+  return color
 
 
 app = Flask(__name__)
@@ -56,7 +63,9 @@ def IA():
 def stat():
     groupepolitique=[]
     membre=[]
-    color=[]
+    region=[]
+    count=[]
+
     hommes,femmes=count_homme_femme()
     df=count_groupe_politique()
     for i in range(0,len(df.collect())):
@@ -66,7 +75,10 @@ def stat():
             groupepolitique.append(df.collect()[i][0])
         membre.append(df.collect()[i][1])
 
-    print(groupepolitique)
-    print(membre)
+    df=count_region()
+    for i in range(0,len(df.collect())):
+        region.append(df.collect()[i][0])
+        count.append(df.collect()[i][1])
 
-    return render_template('stat.html',homme=hommes,femme=femmes,values=membre,labels=groupepolitique)
+
+    return render_template('stat.html',homme=hommes,femme=femmes,values=membre,labels=groupepolitique,region=region,count=count)

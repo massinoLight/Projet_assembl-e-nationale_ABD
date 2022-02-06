@@ -26,4 +26,11 @@ def count_groupe_politique():
     return df.groupBy('Groupe politique (complet)').count()
 
 
-count_groupe_politique()
+
+
+def count_region():
+
+    df = spark.read.option("header",True) \
+     .csv("./data/liste_deputes_libre_office.csv")
+    return df.groupBy('Région').count()
+
