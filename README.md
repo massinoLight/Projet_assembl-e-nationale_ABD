@@ -81,8 +81,9 @@ clear
 For production environments...
 
 ```sh
-npm install --production
-NODE_ENV=production node app
+$ export FLASK_APP=application.py
+$ export FLASK_ENV=development
+$ flask run
 ```
 
 
