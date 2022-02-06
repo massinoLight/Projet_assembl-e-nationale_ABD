@@ -1,12 +1,14 @@
 from flask import Flask, render_template, request
-
-from traitement.stat_on_data import count_homme_femme, count_groupe_politique, count_region
+from traitement.stat_on_data import count_homme_femme, count_groupe_politique, count_region, get_page_depute
 from traitement.recherche_wiki import recherche_wikipedia
-from pyspark.ml.classification import  DecisionTreeClassificationModel
-from pyspark.ml.linalg import Vectors
-from pyspark.sql import SparkSession
 import random
 
+from pyspark.sql import SparkSession
+from pyspark.ml.feature import VectorAssembler
+from pyspark.ml.feature import StringIndexer
+from pyspark.ml.classification import  DecisionTreeClassificationModel
+from pyspark.ml.linalg import Vectors
+from pyspark.ml import Pipeline
 
 
 def get_predicion(row):
@@ -14,13 +16,26 @@ def get_predicion(row):
         .master("local") \
         .appName("Data Exploration") \
         .getOrCreate()
-    test0 = spark.createDataFrame([(Vectors.dense(row[0], row[1], row[2]),)], ["features"])
+    df = spark.read.options(delimiter=",", header=True, inferSchema=True).csv("./data/data_for_DT.csv")
+
+    indexer1 = StringIndexer(inputCol=df.columns[0], outputCol="rg_index", handleInvalid='keep')
+    indexer2 = StringIndexer(inputCol=df.columns[1], outputCol="pr_index", handleInvalid='keep')
+    indexer3 = StringIndexer(inputCol=df.columns[2], outputCol="gp_index", handleInvalid='keep')
+    pipeline = Pipeline(stages=[indexer1, indexer2, indexer3])
+    data = pipeline.fit(df).transform(df)
+
+    data = VectorAssembler(inputCols=["rg_index", "pr_index", "gp_index"], outputCol="features").transform(data).select(
+        'label', 'features')
+
     DTmodel = DecisionTreeClassificationModel.load(
         "/home/massino/Bureau/projetAssembleNationale/new/Projet_assemble_nationale_ABD/traitement/models/DT")
-    print("model load")
-    print(DTmodel.toDebugString)
 
-    return DTmodel.predict(test0.head().features)
+    test0 = data.collect()[random.randint(0, 1129)]
+
+    t = spark.createDataFrame([(Vectors.dense(test0[1][0], test0[1][1], test0[1][2]),)], ["features"])
+    t.show()
+    return DTmodel.predict(t.head().features)
+
 def rand_color(T):
   for i in range(0, T):
     color = []
@@ -39,7 +54,8 @@ def index():
     if request.method == 'POST':
         if request.form['motcle'] !="":
             resultat, image = recherche_wikipedia(request.form['motcle'] )
-            return render_template('resultat_Recherche.html', acteur=resultat.title,wiki=resultat.summary,img=image)
+            page=get_page_depute(request.form['motcle'] )
+            return render_template('resultat_Recherche.html', acteur=resultat.title,wiki=resultat.summary,img=image,page=page)
     return render_template('main.html')
 
 
@@ -54,8 +70,15 @@ def contact():
 
 
 
-@app.route('/ia')
+@app.route('/ia', methods=["GET", "POST"])
 def IA():
+    if request.method == 'POST':
+            predict= get_predicion("")
+            print(predict)
+            if predict==1.0:
+               return render_template('maybe.html')
+            else :
+               return render_template('no.html')
     return render_template('IA.html')
 
 

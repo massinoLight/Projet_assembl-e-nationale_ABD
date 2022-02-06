@@ -23,20 +23,16 @@
 		</div>
 		<div class="table-content">
 			<div class="table-row">
-				<form action="/" >
+				<form action="/ia" method="post">
 
-    <label for="fname">Profession</label>
-    <input type="text" id="fname" name="profession" placeholder="Profession">
+    <label for="Profession">Profession</label>
+    <input type="text" id="Profession" name="profession" placeholder="Profession" value="{{request.form.Profession }}">
 
-    <label for="lname">Groupe politique</label>
-    <input type="text" id="lname" name="gp" placeholder="politique">
+    <label for="politique">Groupe politique</label>
+    <input type="text" id="politique" name="gp" placeholder="politique" value="{{request.form.politique }}">
 
-    <label for="country">Region</label>
-    <select id="country" name="country">
-      <option value="australia">UE</option>
-      <option value="canada">France</option>
-      <option value="usa">Autre</option>
-    </select>
+    <label for="region">Region</label>
+   <input type="text" id="region" name="region" placeholder="region" value="{{request.form.region }}">
 
     <input type="submit" value="Submit">
 

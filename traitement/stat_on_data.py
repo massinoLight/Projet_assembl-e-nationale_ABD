@@ -34,3 +34,13 @@ def count_region():
      .csv("./data/liste_deputes_libre_office.csv")
     return df.groupBy('Région').count()
 
+
+
+
+def get_page_depute(motcle):
+
+    df = spark.read.option("header",True) \
+     .csv("./data/depute_homme_femme.csv")
+    return df.filter(df.parlementaire == motcle).collect()[0][4]
+
+
